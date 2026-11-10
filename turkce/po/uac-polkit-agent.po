@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Adds a Dummy user
+#: uac-polkit-agent/IdentitiesModel.cpp:27
+msgid "Select User"
+msgstr "Kullanıcı Seç"
+
+#: uac-polkit-agent/IdentitiesModel.cpp:45
+msgctxt "%1 is the full user name, %2 is the user login name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: uac-polkit-agent/QuickAuthDialog.cpp:115
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:16
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:108
+msgid "Authentication Required"
+msgstr "Kimlik Doğrulama Gerekli"
+
+#: uac-polkit-agent/main.cpp:55
+msgid "(c) 2009 Red Hat, Inc."
+msgstr "© 2009 Red Hat, Inc."
+
+#: uac-polkit-agent/main.cpp:56
+msgid "Lukáš Tinkl"
+msgstr "Lukáš Tinkl"
+
+#: uac-polkit-agent/main.cpp:56
+msgid "Maintainer"
+msgstr "Bakımcı"
+
+#: uac-polkit-agent/main.cpp:57
+msgid "Jaroslav Reznik"
+msgstr "Jaroslav Reznik"
+
+#: uac-polkit-agent/main.cpp:57
+msgid "Former maintainer"
+msgstr "Önceki bakımcı"
+
+#: uac-polkit-agent/policykitlistener.cpp:90
+msgid "Another client is already authenticating, please try again later."
+msgstr "Başka bir istemci hâlihazırda kimlik doğrulaması yapıyor, lütfen daha sonra yeniden deneyin."
+
+#: uac-polkit-agent/policykitlistener.cpp:97
+msgctxt "Error response when polkit calls us with an empty list of identities"
+msgid "No user to authenticate as. Please check your system configuration."
+msgstr "Kimliği doğrulanacak bir kullanıcı yok. Lütfen sistem yapılandırmanızı denetleyin."
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:57
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:366
+msgid "Authentication failure, please try again."
+msgstr "Kimlik doğrulama başarısız, lütfen yeniden deneyin."
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:141
+msgid "User: %1"
+msgstr "Kullanıcı: %1"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:146
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:334
+msgid "Switch…"
+msgstr "Değiştir…"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:167
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:348
+msgid "Password…"
+msgstr "Parola…"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:175
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:185
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:405
+msgid "OK"
+msgstr "Tamam"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:191
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:418
+msgid "Cancel"
+msgstr "İptal"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:201
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:247
+msgid "Action:"
+msgstr "Eylem:"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:205
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:209
+msgid "ID:"
+msgstr "Kimlik:"
+
+#: uac-polkit-agent/qml/MobileQuickAuthDialog.qml:209
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:223
+msgid "Vendor:"
+msgstr "Satıcı:"
+
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:21
+msgid "User Account Control"
+msgstr "Kullanıcı Hesabı Denetimi"
+
+#: uac-polkit-agent/qml/QuickAuthDialog.qml:279
+msgid "To continue, type an administrator password, and then click OK."
+msgstr "Devam etmek için bir yönetici parolası yazın ve sonra Tamam’ı tıklatın."
+

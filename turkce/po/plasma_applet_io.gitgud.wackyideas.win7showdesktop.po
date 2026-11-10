@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/config/config.qml:6
+msgid "General"
+msgstr "Genel"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/CommandController.qml:13
+msgctxt "@action:button"
+msgid "Run custom command"
+msgstr "Özel komut çalıştır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/CommandController.qml:16
+msgctxt "@info:tooltip"
+msgid "Run user-defined command when pressed"
+msgstr "Basıldığında kullanıcı tanımlı komutu çalıştırır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/MinimizeAllController.qml:18
+msgctxt "@action:button"
+msgid "Restore All Minimized Windows"
+msgstr "Simge Durumuna Küçültülmüş Tüm Pencereleri Geri Yükle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/MinimizeAllController.qml:19
+msgctxt "@action:button"
+msgid "Minimize All Windows"
+msgstr "Tüm Pencereleri Simge Durumuna Küçült"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/MinimizeAllController.qml:21
+msgctxt "@info:tooltip"
+msgid "Restores the previously minimized windows"
+msgstr "Daha önceden simge durumuna küçültülen pencereleri eski hallerine döndürür"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/MinimizeAllController.qml:22
+msgctxt "@info:tooltip"
+msgid "Shows the Desktop by minimizing all windows"
+msgstr "Tüm pencereleri simge durumuna küçülterek Masaüstü’nü gösterir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/PeekController.qml:14
+msgctxt "@action:button"
+msgid "Peek at Desktop"
+msgstr "Masaüstüne Bak"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/PeekController.qml:15
+msgctxt "@action:button"
+msgid "Stop Peeking at Desktop"
+msgstr "Masaüstüne Bakmayı Bırak"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/PeekController.qml:17
+msgctxt "@info:tooltip"
+msgid "Moves windows back to their original positions"
+msgstr "Pencereleri özgün konumlarına geri taşır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/PeekController.qml:18
+msgctxt "@info:tooltip"
+msgid "Temporarily shows the desktop by moving windows away"
+msgstr "Pencereleri uzaklaştırarak masaüstünü geçici olarak gösterir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:42
+msgid "Look"
+msgstr "Görünüm"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:48
+msgid "Size:"
+msgstr "Boyut:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:50
+msgid "px"
+msgstr " pks"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:57
+msgid "Click"
+msgstr "Tıkla"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:82
+msgid "Run Command"
+msgstr "Komutu Çalıştır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:121
+msgid "Mouse Wheel"
+msgstr "Fare Tekerleği"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:128
+msgid "Run Commands"
+msgstr "Komut Çalıştır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:137
+msgid "Scroll Up:"
+msgstr "Yukarı kaydır:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:148
+msgid "Scroll Down:"
+msgstr "Aşağı kaydır:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:159
+msgid "Volume (No UI) (amixer)"
+msgstr "Ses düzeyi (arayüzsüz) (amixer)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:166
+msgid "Volume (UI) (qdbus)"
+msgstr "Ses düzeyi (arayüzlü) (qdbus)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:175
+msgid "Switch Desktop (qdbus)"
+msgstr "Masaüstü değiştir (qdbus)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:183
+msgid "Peek"
+msgstr "Göz at"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:189
+msgid "Show desktop on hover:"
+msgstr "Üzerine gelince masaüstünü göster:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:191
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:195
+msgid "Peek threshold:"
+msgstr "Göz atma eşiği:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:197
+msgid "ms"
+msgstr "ms"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/lib/AppletVersion.qml:42
+msgid "<b>Version:</b> %1"
+msgstr "<b>Sürüm:</b> %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:62
+msgid "Show Desktop"
+msgstr "Masaüstünü Göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:71
+msgctxt "@action"
+msgid "Minimize All Windows"
+msgstr "Tüm Pencereleri Simge Durumuna Küçült"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:98
+msgid "Toggle Present Windows (All desktops)"
+msgstr "Pencereleri Sunmayı Aç/Kapat (Tüm masaüstleri)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:105
+msgid "Toggle Present Windows (Current desktop)"
+msgstr "Pencereleri Sunmayı Aç/Kapat (Geçerli masaüstü)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.win7showdesktop/contents/ui/config/ConfigGeneral.qml:112
+msgid "Toggle Present Windows (Window class)"
+msgstr "Pencereleri Sunmayı Aç/Kapat (Pencere sınıfı)"
+

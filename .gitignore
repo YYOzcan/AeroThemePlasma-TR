@@ -1,0 +1,7 @@
+__pycache__/
+*.pkg.tar.zst
+*.log
+src/
+pkg/
+kaynak/
+build/

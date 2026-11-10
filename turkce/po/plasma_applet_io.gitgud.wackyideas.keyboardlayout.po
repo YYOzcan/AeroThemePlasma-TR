@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.keyboardlayout/contents/config/config.qml:6
+msgid "General"
+msgstr "Genel"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.keyboardlayout/contents/ui/configGeneral.qml:31
+msgid "Display style:"
+msgstr "Görüntüleme biçemi:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.keyboardlayout/contents/ui/configGeneral.qml:70
+msgctxt "@info:placeholder Make this translation as short as possible"
+msgid "No flag available"
+msgstr "Kullanılabilir bayrak yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.keyboardlayout/contents/ui/configGeneral.qml:110
+msgid "Layouts:"
+msgstr "Yerleşimler:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.keyboardlayout/contents/ui/configGeneral.qml:111
+msgid "Configure…"
+msgstr "Yapılandır…"
+

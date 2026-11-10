@@ -1,0 +1,672 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/ActivityItem.qml:230
+msgid "Currently being used"
+msgstr "Şu anda kullanılıyor"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/ActivityItem.qml:270
+msgid "Move to\nthis activity"
+msgstr "Bu etkinliğe\ntaşı"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/ActivityItem.qml:301
+msgid "Show also\nin this activity"
+msgstr "Ayrıca bu\netkinlikte göster"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/ActivityItem.qml:364
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/ActivityItem.qml:383
+msgid "Stop activity"
+msgstr "Etkinliği durdur"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/ActivityList.qml:143
+msgid "Stopped activities:"
+msgstr "Durdurulan etkinlikler:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/ActivityManager.qml:143
+msgid "Create activity…"
+msgstr "Etkinlik Oluştur…"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/Heading.qml:63
+msgid "Activities"
+msgstr "Etkinlikler"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/StoppedActivityItem.qml:138
+msgid "Configure activity"
+msgstr "Etkinliği yapılandır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/activitymanager/StoppedActivityItem.qml:155
+msgid "Delete"
+msgstr "Sil"
+
+#. This is just to suppress warnings. Users should never see this.
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/applet/AppletError.qml:127
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/applet/AppletError.qml:254
+msgid "No error information."
+msgstr "Hata bilgisi yok."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/applet/AppletError.qml:164
+msgid "Copy to Clipboard"
+msgstr "Panoya Kopyala"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/applet/AppletError.qml:187
+msgid "View Error Details…"
+msgstr "Hata Ayrıntılarını Görüntüle…"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/applet/CompactApplet.qml:76
+msgid "Open %1"
+msgstr "Aç: %1"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/components/OSKButton.qml:15
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "Sanal Klavye"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:21
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:365
+msgid "About"
+msgstr "Hakkında"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:50
+msgid "Send an email to %1"
+msgstr "E-posta gönder: %1"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:64
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr "Web sayfasını aç: %1"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:137
+msgid "Copyright"
+msgstr "Telif Hakkı"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:158
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/Tooltip.qml:94
+msgid "License:"
+msgstr "Lisans:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:163
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr "Lisans metnini görüntüle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:177
+msgid "Authors"
+msgstr "Yazarlar"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:189
+msgid "Credits"
+msgstr "Emeği Geçenler"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:202
+msgid "Translators"
+msgstr "Çevirmenler"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AboutPlugin.qml:220
+msgid "Report a Bug…"
+msgstr "Hata Bildir…"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:77
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:300
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigCategoryDelegate.qml:27
+msgid "Open configuration page"
+msgstr "Yapılandırma sayfasını aç"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:420
+msgid "Confirm changes"
+msgstr "Değişiklikleri onayla"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:471
+msgid "The settings of the current module have changed. Do you want to apply the changes or discard them?"
+msgstr "Geçerli modülün ayarları değişti. Değişiklikleri uygulamak mı yoksa atmak mı istiyorsunuz?"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:492
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:574
+msgid "Apply"
+msgstr "Uygula"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:507
+msgid "Discard"
+msgstr "At"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:522
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:580
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:208
+msgid "Cancel"
+msgstr "İptal"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/AppletConfiguration.qml:566
+msgid "OK"
+msgstr "Tamam"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:21
+msgid "Left-Button"
+msgstr "Sol Düğme"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:22
+msgid "Right-Button"
+msgstr "Sağ Düğme"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:23
+msgid "Middle-Button"
+msgstr "Orta Düğme"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:24
+msgid "Back-Button"
+msgstr "Geri Düğmesi"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:25
+msgid "Forward-Button"
+msgstr "İleri Düğmesi"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:27
+msgid "Vertical-Scroll"
+msgstr "Dikey Sarma"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:28
+msgid "Horizontal-Scroll"
+msgstr "Yatay Sarma"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:30
+msgid "Shift"
+msgstr "Shift"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:31
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:32
+msgid "Alt"
+msgstr "Alt"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:33
+msgid "Meta"
+msgstr "Meta"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:96
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:168
+msgctxt "@title"
+msgid "About"
+msgstr "Hakkında"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentActions.qml:183
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/MouseEventInputButton.qml:13
+msgid "Add Action"
+msgstr "Eylem Ekle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:92
+msgid "Layout changes have been restricted by the system administrator"
+msgstr "Yerleşim değişiklikleri sistem yöneticisi tarafından kısıtlanmış"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:108
+msgid "Wallpaper type:"
+msgstr "Duvar kâğıdı türü:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:129
+msgid "Get New Plugins…"
+msgstr "Yeni Eklentiler Al…"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:221
+msgid "Layout:"
+msgstr "Yerleşim:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:263
+msgid "Window Color"
+msgstr "Pencere Rengi"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:272
+msgid "Window Decorations"
+msgstr "Pencere Dekorasyonları"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:281
+msgid "Sounds"
+msgstr "Sesler"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:300
+msgid "Layout changes must be applied before other changes can be made"
+msgstr "Yerleşim değişiklikleri, diğer değişiklikler yapılmadan uygulanmalıdır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationContainmentAppearance.qml:304
+msgid "Apply Now"
+msgstr "Şimdi Uygula"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationShortcuts.qml:18
+msgid "Shortcuts"
+msgstr "Kısayollar"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ConfigurationShortcuts.qml:30
+msgid "This shortcut will activate the applet as though it had been clicked."
+msgstr "Bu kısayol, uygulamacığı tıklatılmış gibi etkinleştirir."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ContainmentConfiguration.qml:27
+msgid "Wallpaper"
+msgstr "Duvar Kâğıdı"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ContainmentConfiguration.qml:32
+msgid "Mouse Actions"
+msgstr "Fare Eylemleri"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/MouseEventInputButton.qml:20
+msgid "Input Here"
+msgstr "Buraya Girin"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:113
+msgid "Panel Settings"
+msgstr "Panel Ayarları"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:123
+msgid "Add Spacer"
+msgstr "Boşluk Ekle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:127
+msgid "Add spacer widget to the panel"
+msgstr "Panele boşluk ekle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:134
+msgid "Add Widgets…"
+msgstr "Araç Takımları Ekle…"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:138
+msgid "Open the widget selector to drag and drop widgets to the panel"
+msgstr "Panele araç takımı sürükleyip bırakmak için araç takımı seçiciyi aç"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:167
+msgid "Position"
+msgstr "Konum"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:172
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:299
+msgid "Top"
+msgstr "Üst"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:173
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:301
+msgid "Right"
+msgstr "Sağ"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:174
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:299
+msgid "Left"
+msgstr "Sol"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:175
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:301
+msgid "Bottom"
+msgstr "Alt"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:195
+msgid "Set Position…"
+msgstr "Konumu Ayarla…"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:222
+msgid "Alignment"
+msgstr "Hizalama"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:300
+msgid "Center"
+msgstr "Orta"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:323
+msgid "Height"
+msgstr "Yükseklik"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:324
+msgid "Width"
+msgstr "Genişlik"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:353
+msgid "Fill height"
+msgstr "Yüksekliği doldur"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:353
+msgid "Fill width"
+msgstr "Genişliği doldur"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:354
+msgid "Fit content"
+msgstr "İçeriği sığdır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:355
+msgid "Custom"
+msgstr "Özel"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:381
+msgid "Visibility"
+msgstr "Görünürlük"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:404
+msgid "Always visible"
+msgstr "Her zaman görünür"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:405
+msgid "Auto hide"
+msgstr "Kendiliğinden gizle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:406
+msgid "Dodge windows"
+msgstr "Pencerelerden kaç"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:407
+msgid "Windows Go Below"
+msgstr "Pencereler Altına Geçer"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:450
+msgid "Opacity"
+msgstr "Opaklık"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:474
+msgid "Adaptive"
+msgstr "Uyarlanır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:475
+msgid "Opaque"
+msgstr "Opak"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:476
+msgid "Translucent"
+msgstr "Yarısaydam"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:500
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr "Yüzer"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:514
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:515
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr "Yalnızca uygulamacıklar"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:516
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr "Masaüstleri ve uygulamacıklar"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:615
+msgid "Panel Width:"
+msgstr "Panel genişliği:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:616
+msgid "Panel Height:"
+msgstr "Panel yüksekliği:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:639
+msgid "Focus shortcut:"
+msgstr "Odak kısayolu:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:650
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr "Odağı panele taşımak için bu klavye kısayolunu kullanın"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:682
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "Paneli Sil"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:685
+msgid "Remove this panel; this action is undo-able"
+msgstr "Bu paneli kaldır; bu işlem geri alınabilir"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:696
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "Paneli Klonla"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:698
+msgctxt "@info:tooltip"
+msgid "Create a new panel with the same settings and applets"
+msgstr "Aynı ayarlar ve uygulamacıklar ile yeni bir panel oluştur"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:707
+msgctxt "@action:button Done configuring the panel"
+msgid "Done"
+msgstr "Bitti"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/PanelConfiguration.qml:710
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr "Panel ayarlarını kapat ve düzenleme kipinden çık"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ShellContainmentConfiguration.qml:19
+msgid "Panel and Desktop Management"
+msgstr "Panel ve Masaüstü Yönetimi"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ShellContainmentConfiguration.qml:34
+msgid "You can drag Panels and Desktops around to move them to different screens."
+msgstr "Panelleri ve Masaüstlerini başka ekranlara taşıyabilirsiniz."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/ShellContainmentConfiguration.qml:44
+msgid "Close"
+msgstr "Kapat"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/panelconfiguration/Ruler.qml:30
+msgid "Drag to change maximum height."
+msgstr "En büyük yüksekliği değiştirmek için sürükleyin."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/panelconfiguration/Ruler.qml:30
+msgid "Drag to change maximum width."
+msgstr "En büyük genişliği değiştirmek için sürükleyin."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/panelconfiguration/Ruler.qml:30
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/panelconfiguration/Ruler.qml:31
+msgid "Double click to reset."
+msgstr "Sıfırlamak için çift tıklatın."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/panelconfiguration/Ruler.qml:31
+msgid "Drag to change minimum height."
+msgstr "En düşük yüksekliği değiştirmek için sürükleyin."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/panelconfiguration/Ruler.qml:31
+msgid "Drag to change minimum width."
+msgstr "En düşük genişliği değiştirmek için sürükleyin."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/panelconfiguration/Ruler.qml:78
+msgid "Drag to change position on this screen edge.\nDouble click to reset."
+msgstr "Bu ekran kenarındaki konumu değiştirmek için sürükleyin.\nSıfırlamak için çift tıklatın."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/shellcontainmentconfiguration/Delegate.qml:179
+msgid "Swap with Desktop on Screen %1"
+msgstr "%1. Ekrandaki Masaüstüyle Değiştir"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/shellcontainmentconfiguration/Delegate.qml:180
+msgid "Move to Screen %1"
+msgstr "%1. Ekrana Taşı"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/shellcontainmentconfiguration/Delegate.qml:194
+msgid "Remove Desktop"
+msgstr "Masaüstünü Kaldır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/shellcontainmentconfiguration/Delegate.qml:195
+msgid "Remove Panel"
+msgstr "Paneli Kaldır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/configuration/shellcontainmentconfiguration/Delegate.qml:268
+msgid "%1 (primary)"
+msgstr "%1 (birincil)"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/AppletAlternatives.qml:29
+msgid "Alternative Widgets for %1"
+msgstr "%1 için Alternatif Araç Takımları"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/AppletDelegate.qml:78
+msgid "%1 added"
+msgstr "%1 eklendi"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/AppletDelegate.qml:80
+msgid "Unsupported Widget"
+msgstr "Desteklenmeyen araç takımı"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/Tooltip.qml:105
+msgid "Author:"
+msgstr "Yazar:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/Tooltip.qml:115
+msgid "Email:"
+msgstr "E-posta:"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/Tooltip.qml:136
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:270
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:358
+msgid "Uninstall"
+msgstr "Kaldır"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:210
+msgid "Desktop Gadgets"
+msgstr "Masaüstü Gadget’ları"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:251
+msgid "Do you want to uninstall %1?"
+msgstr "%1 kaldırılsın mı?"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:297
+msgid "Don't uninstall"
+msgstr "Kaldırma"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:352
+msgid "Add"
+msgstr "Ekle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:444
+msgid "Page %1 of %2"
+msgstr "Sayfa %1 / %2"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:549
+msgid "Search gadgets"
+msgstr "Gadget’larda ara"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:655
+msgid "Hide details"
+msgstr "Ayrıntıları gizle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:655
+msgid "Show details"
+msgstr "Ayrıntıları göster"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:691
+msgid "Install gadgets from local file"
+msgstr "Yerel dosyadan gadget yükle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/explorer/WidgetExplorer.qml:716
+msgid "Get more gadgets online"
+msgstr "Çevrimiçi daha fazla gadget edinin"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:109
+msgid "The user name or password is incorrect."
+msgstr "Kullanıcı adı veya parola yanlış."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:281
+msgid "Locked"
+msgstr "Kilitli"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:316
+msgid "Password"
+msgstr "Parola"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:385
+msgid "Caps Lock is on"
+msgstr "Caps Lock açık"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:392
+msgid "(or place your fingerprint on the reader)"
+msgstr "(veya parmağınızı okuyucuya taratın)"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:400
+msgid "(or use your smartcard)"
+msgstr "(veya akıllı kartınızı kullanın)"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:418
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:95
+msgid "Switch User"
+msgstr "Kullanıcı değiştir"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:435
+msgid "Welcome"
+msgstr "Hoş geldiniz"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/lockscreen/AuthUI.qml:520
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "Yerleşim Değiştir"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:94
+msgid "Lock this computer"
+msgstr "Bu bilgisayarı kilitle"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:96
+msgid "Log off"
+msgstr "Oturumu kapat"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:97
+msgid "Change a password..."
+msgstr "Parolayı değiştir..."
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:98
+msgid "Start Task Manager"
+msgstr "Görev Yöneticisi’ni Başlat"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:333
+msgid "Restart"
+msgstr "Yeniden başlat"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:340
+msgid "Sleep"
+msgstr "Uyku"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:346
+msgid "Hibernate"
+msgstr "Hazırda Beklet"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/logout/Logout.qml:352
+msgid "Shut down"
+msgstr "Bilgisayarı kapat"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/osd/OsdItem.qml:34
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr "%%1"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/views/DesktopEditMode.qml:101
+msgid "Personalize"
+msgstr "Kişiselleştir"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/views/DesktopEditMode.qml:107
+msgid "Global Themes"
+msgstr "Genel Temalar"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/views/DesktopEditMode.qml:113
+msgid "Display Configuration"
+msgstr "Görüntü Yapılandırması"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/views/DesktopEditMode.qml:131
+msgctxt "@action:button"
+msgid "More"
+msgstr "Daha Fazla"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/views/DesktopEditMode.qml:139
+msgid "Exit Edit Mode"
+msgstr "Düzenleme Kipinden Çık"
+
+#: aerothemeplasma/plasma/shells/io.gitgud.wackyideas.desktop/contents/views/Panel.qml:343
+msgid "Panel Focus Indicator"
+msgstr "Panel Odağı Göstergesi"
+

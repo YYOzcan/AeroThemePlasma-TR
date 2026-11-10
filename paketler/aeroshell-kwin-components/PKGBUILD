@@ -1,0 +1,29 @@
+# Yerel paket: AeroThemePlasma (install.sh ile aynı CMake adımları)
+pkgname=aeroshell-kwin-components
+pkgver=6.8.0
+pkgrel=202611070129
+pkgdesc="AeroShell KWin efektleri ve betikleri"
+arch=(x86_64)
+url="https://gitgud.io/aeroshell"
+license=("GPL-2.0-or-later")
+provides=()
+conflicts=()
+groups=(aerothemeplasma-yerel)
+options=(!debug !lto)
+makedepends=(git cmake ninja extra-cmake-modules)
+source=("kaynak::git+file://$HOME/AeroKurulum/repos/aeroshell-kwin-components#branch=Plasma/6.8")
+sha256sums=(SKIP)
+
+prepare() {
+  # Türkçe yerelleştirme yamaları
+  python3 $HOME/AeroKurulum/turkce/araclar/yama.py aeroshell-kwin-components "$srcdir/kaynak"
+}
+
+build() {
+  cmake -G Ninja -S kaynak -B build -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_TESTING=OFF -DKWIN_BUILD_WAYLAND=ON
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+}

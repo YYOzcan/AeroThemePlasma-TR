@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Windows Gezgini (adres işleyicisi)
+Exec=explorer %u
+Icon=system-file-manager
+NoDisplay=true
+MimeType=x-scheme-handler/computer;x-scheme-handler/controlpanel;

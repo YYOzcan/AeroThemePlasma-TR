@@ -1,0 +1,41 @@
+# Yerel paket: linux-explorer (Windows 7 Gezgini ve Denetim Masası), tamamen Türkçe
+pkgname=linux-explorer-tr
+pkgver=2.0
+pkgrel=2
+pkgdesc="Windows 7 Gezgini ve Denetim Masası (linux-explorer) — Türkçe"
+arch=(x86_64)
+url="https://github.com/actuallyaridan/linux-explorer"
+license=('GPL-3.0-only')
+groups=(aerothemeplasma-yerel)
+depends=('qt6-base' 'qt6-multimedia' 'kio' 'kcoreaddons' 'kconfig' 'kwidgetsaddons' 'kwindowsystem'
+         'solid' 'libaero-qt' 'libcups' 'openssl' 'zlib')
+optdepends=('kio-extras: arama ve klasör gibi açılan arşivler'
+            'kio-admin: Yönetici olarak aç'
+            'ark: Sıkıştırılmış (zip) klasöre gönder'
+            'ffmpegthumbs: video küçük resimleri'
+            'kdegraphics-thumbnailers: PDF ve RAW küçük resimleri'
+            'polkit: Denetim Masası’ndan program yükleme/kaldırma'
+            'ufw: Güvenlik Duvarı sayfası')
+makedepends=('git' 'cmake' 'ninja' 'python')
+provides=("linux-explorer=$pkgver" 'linux-control')
+conflicts=('linux-explorer' 'linux-control')
+options=(!debug)
+source=("kaynak::git+file://$HOME/AeroKurulum/explorer/kaynak#tag=v2.0" linux-explorer-adres.desktop)
+sha256sums=(SKIP SKIP)
+
+prepare() {
+  # Türkçe çeviri (yerinde dize değiştirme) + Qt Türkçe kataloğu + .desktop adları
+  python3 $HOME/AeroKurulum/explorer/araclar/uygula.py "$srcdir/kaynak"
+}
+
+build() {
+  cmake -S kaynak -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+  install -Dm644 kaynak/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  # computer:/// ve controlpanel:///<sayfa> adreslerini Explorer açsın (Başlat menüsü, masaüstü, ATP bağlantıları)
+  install -Dm644 linux-explorer-adres.desktop "$pkgdir/usr/share/applications/linux-explorer-adres.desktop"
+}

@@ -1,0 +1,18 @@
+# Yerel paket: KDE/Qt güncellemelerinde AeroThemePlasma'yı otomatik yeniden derleyen pacman hook'u
+pkgname=aerothemeplasma-otomatik
+pkgver=1.0
+pkgrel=2
+pkgdesc="KDE Plasma/KWin/Qt güncellendiğinde AeroThemePlasma'yı Türkçe ve ayarları koruyarak yeniden derler"
+arch=(any)
+license=("GPL-2.0-or-later")
+groups=(aerothemeplasma-yerel)
+depends=(pacman systemd libnotify git rsync python base-devel cmake ninja extra-cmake-modules)
+source=(95-aerothemeplasma-guncelle.hook aerothemeplasma-guncelle.service guncelle.sh aerothemeplasma-guncelle)
+sha256sums=(SKIP SKIP SKIP SKIP)
+
+package() {
+  install -Dm644 95-aerothemeplasma-guncelle.hook "$pkgdir/usr/share/libalpm/hooks/95-aerothemeplasma-guncelle.hook"
+  install -Dm644 aerothemeplasma-guncelle.service "$pkgdir/usr/lib/systemd/system/aerothemeplasma-guncelle.service"
+  install -Dm755 guncelle.sh "$pkgdir/usr/lib/aerothemeplasma-otomatik/guncelle.sh"
+  install -Dm755 aerothemeplasma-guncelle "$pkgdir/usr/bin/aerothemeplasma-guncelle"
+}

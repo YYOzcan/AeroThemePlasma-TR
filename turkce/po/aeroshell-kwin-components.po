@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Using QToolBar to make the entire extended titlebar draggable
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.cpp:122
+msgid "Change the color of your window borders, Start menu, and taskbar"
+msgstr "Pencere kenarlıklarınızın, Başlat menüsünün ve görev çubuğunun rengini değiştirin"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.cpp:347
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.cpp:376
+msgid "Current color: %1"
+msgstr "Geçerli renk: %1"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.cpp:390
+msgid "Hide color mixer"
+msgstr "Renk karıştırıcıyı gizle"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.cpp:391
+msgid "Show color mixer"
+msgstr "Renk karıştırıcıyı göster"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Duration:"
+msgstr "Süre:"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid " milliseconds"
+msgstr " milisaniye"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Enable a more accurate tilt effect."
+msgstr "Daha gerçekçi bir eğim efekti kullan."
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Window Open Animation"
+msgstr "Pencere Açma Canlandırması"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Rotation edge:"
+msgstr "Döndürme kenarı:"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Top"
+msgstr "Üst"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Right"
+msgstr "Sağ"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Bottom"
+msgstr "Alt"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Left"
+msgstr "Sol"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Rotation angle:"
+msgstr "Döndürme açısı:"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Distance:"
+msgstr "Uzaklık:"
+
+#: aeroshell-kwin-components/effects_cpp/aeroglide/src/glide_config.ui
+msgid "Window Close Animation"
+msgstr "Pencere Kapatma Canlandırması"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Blur strength:"
+msgstr "Bulanıklık sertliği:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgctxt "Low blur strength"
+msgid "Light"
+msgstr "Hafif"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgctxt "High blur strength"
+msgid "Strong"
+msgstr "Güçlü"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Enable Transparency"
+msgstr "Saydamlığı Etkinleştir"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Reflection texture:"
+msgstr "Yansıma dokusu:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Browse..."
+msgstr "Gözat..."
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgctxt "Reset the reflection texture"
+msgid "Clear"
+msgstr "Temizle"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Reflection intensity:"
+msgstr "Yansıma yoğunluğu:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "100%"
+msgstr "%100"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgctxt "Don't change the HTML markup, just the human-readable text"
+msgid "<a href=\"no\">Change accent color</a>"
+msgstr "<a href=\"no\">Vurgu rengini değiştir</a>"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Move the reflection texture along with the window"
+msgstr "Yansıma dokusunu pencereyle birlikte hareket ettir"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Enable basic colorization"
+msgstr "Temel renklendirmeyi etkinleştir"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Enable opaque colorization for maximized windows"
+msgstr "Ekranı kaplayan pencerelerde opak renklendirme kullan"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Display corner glow textures"
+msgstr "Köşe parıltı dokularını göster"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Classes of windows to force blur:"
+msgstr "Bulanıklığın zorlanacağı pencere sınıfları:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Classes of Firefox windows to apply custom blur:"
+msgstr "Özel bulanıklık uygulanacak Firefox pencere sınıfları:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Classes of windows to not apply blur (regex):"
+msgstr "Bulanıklık uygulanmayacak pencere sınıfları (düzenli ifade):"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "One window class per line."
+msgstr "Her satıra bir pencere sınıfı."
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Apply force blur list"
+msgstr "Zorunlu bulanıklık listesini uygula"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Blur menus"
+msgstr "Menüleri bulanıklaştır"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgctxt "Blur windows that have a 'dock' type"
+msgid "Blur docks"
+msgstr "Rıhtımları bulanıklaştır"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Make KRunner opaque"
+msgstr "KRunner’ı opak yap"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgctxt "Toggle opaqueness for OSDs"
+msgid "Make on screen displays opaque"
+msgstr "Ekran göstergelerini opak yap"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Paint windows as non-opaque (fixes artifacts for some transparent windows)"
+msgstr "Pencereleri opak olmayan olarak çiz (bazı saydam pencerelerdeki bozulmaları giderir)"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Don't render blur on the inside of Firefox windows (disabling this reduces performance)"
+msgstr "Firefox pencerelerinin içinde bulanıklık çizme (bunu kapatmak performansı düşürür)"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Firefox blur corner radius (radius gets DPI scaled by the effect)"
+msgstr "Firefox bulanıklık köşe yarıçapı (yarıçap efekt tarafından DPI’a göre ölçeklenir)"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgctxt "Pixel unit suffix"
+msgid "px"
+msgstr " pks"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Firefox blur top margin"
+msgstr "Firefox bulanıklık üst boşluğu"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Intensity:"
+msgstr "Yoğunluk:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Hue:"
+msgstr "Ton:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Saturation:"
+msgstr "Doygunluk:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Brightness:"
+msgstr "Parlaklık:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Red:"
+msgstr "Kırmızı:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Green:"
+msgstr "Yeşil:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Blue:"
+msgstr "Mavi:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/blur_config.ui
+msgid "Color Balance:"
+msgstr "Renk Dengesi:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgid "Color Palette:"
+msgstr "Renk Paleti:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgid "Enables/disables the transparency of the entire theme. \nNOTE: This setting does NOT affect compositing settings."
+msgstr "Tüm temanın saydamlığını açar/kapatır. \nNOT: Bu ayar birleştirici ayarlarını ETKİLEMEZ."
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgid "Enable transparency"
+msgstr "Saydamlığı etkinleştir"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgid "Color intensity:"
+msgstr "Renk yoğunluğu:"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgctxt "Don't change the HTML markup, just the human-readable text"
+msgid "<a href=\"no\" style=\"color: #0066D4\">Show color mixer</a>"
+msgstr "<a href=\"no\" style=\"color: #0066D4\">Renk karıştırıcıyı göster</a>"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgid "Apply"
+msgstr "Uygula"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: aeroshell-kwin-components/effects_cpp/kde-effects-aeroglassblur/src/kcm/mainwindow.ui
+msgid "Cancel"
+msgstr "İptal"
+
+#: aeroshell-kwin-components/kwin/effects/loginaero/contents/ui/config.ui
+msgid "Fade to black (fullscreen splash screens only)"
+msgstr "Görüntüyü karart (yalnızca tam ekran açılış ekranları)"
+
+#: aeroshell-kwin-components/kwin/tabbox/thumbnail_aero/contents/ui/main.qml:110
+msgid "Desktop"
+msgstr "Masaüstü"
+

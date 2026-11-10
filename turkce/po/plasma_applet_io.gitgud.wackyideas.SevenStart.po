@@ -1,0 +1,344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/config/config.qml:26
+msgid "General"
+msgstr "Genel"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/config/config.qml:31
+msgid "Side panel"
+msgstr "Yan panel"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:104
+msgid "Orb texture"
+msgstr "Küre dokusu"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:120
+msgid "Orb size (0 for default/no scaling):"
+msgstr "Küre boyutu (varsayılan/ölçeklemesiz için 0):"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:136
+msgid "Behavior"
+msgstr "Davranış"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:145
+msgid "Show applications as:"
+msgstr "Uygulamaları şöyle göster:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:153
+msgid "Name only"
+msgstr "Yalnızca ad"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:153
+msgid "Description only"
+msgstr "Yalnızca açıklama"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:153
+msgid "Name (Description)"
+msgstr "Ad (açıklama)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:153
+msgid "Description (Name)"
+msgstr "Açıklama (ad)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:161
+msgid "Switch categories on hover"
+msgstr "Üzerine gelindiğinde kategorileri değiştir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:166
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Aramayı yer imlerine, dosyalara ve e-postalara genişlet"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:171
+msgid "Enable floating orb for shorter taskbars"
+msgstr "Kısa görev çubukları için yüzen küreyi etkinleştir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:175
+msgid "Show recent programs"
+msgstr "Son kullanılan programları göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:180
+msgid "Display full name"
+msgstr "Tam adı göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:184
+msgid "Display generic folder icons for categories"
+msgstr "Kategoriler için genel klasör simgeleri göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:191
+msgid "Number of recent programs to display:"
+msgstr "Görüntülenecek son kullanılan program sayısı:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:204
+msgid "Tweaks"
+msgstr "İnce ayarlar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:209
+msgid "Apply uneven padding on the search text box"
+msgstr "Arama kutusuna eşit olmayan dolgu uygula"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:213
+msgid "Offset floating orb into the taskbar"
+msgstr "Yüzen küreyi görev çubuğunun içine kaydır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:217
+msgid "Enable shadow"
+msgstr "Gölgeyi etkinleştir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:221
+msgid "Choose runner for the 'Run' entry"
+msgstr "'Çalıştır' öğesi için çalıştırıcıyı seçin"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:226
+msgid "KRunner"
+msgstr "KRunner"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigGeneral.qml:227
+msgid "Execbin"
+msgstr "Execbin"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/ConfigSidepanel.qml:87
+msgid "Customize how links, icons, and menus look and behave."
+msgstr "Bağlantıların, simgelerin ve menülerin görünümünü ve davranışını özelleştirin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/GenericItem.qml:76
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/KickoffItem.qml:88
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/KickoffItemChild.qml:86
+msgid "Unpin from taskbar"
+msgstr "Görev çubuğundan kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/GenericItem.qml:76
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/KickoffItem.qml:88
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/KickoffItemChild.qml:86
+msgid "Pin to taskbar"
+msgstr "Görev çubuğuna sabitle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/IconPicker.qml:44
+msgid "Customize the way the menu orb looks like using ClassicShell/OpenShell-compatible PNG resources.\nOnly orb textures with three frames are supported."
+msgstr "Menü küresinin görünümünü ClassicShell/OpenShell uyumlu PNG kaynaklarıyla özelleştirin.\nYalnızca üç kareli küre dokuları desteklenir."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/IconPicker.qml:48
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Seç…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/IconPicker.qml:52
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/MenuRepresentation.qml:697
+msgid "All Programs"
+msgstr "Tüm Programlar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/MenuRepresentation.qml:712
+msgid "Back"
+msgstr "Geri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/MenuRepresentation.qml:754
+msgid " Search programs and files"
+msgstr " Programları ve dosyaları ara"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/MenuRepresentation.qml:1198
+msgid "Closes all open programs, shuts down Linux, and then turns off your computer."
+msgstr "Tüm açık programları kapatır, Linux’u kapatır ve ardından bilgisayarınızı kapatır."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/NavGrid.qml:75
+msgid "No items match your search."
+msgstr "Aramanızla eşleşen öğe yok."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:25
+msgid "Home directory"
+msgstr "Kişisel klasör"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:28
+msgid "Open your personal folder."
+msgstr "Kişisel klasörünüzü açın."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:36
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:38
+msgid "Documents"
+msgstr "Belgeler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:39
+msgid "Access letters, reports, notes and other kinds of documents."
+msgstr "Mektuplara, raporlara, notlara ve diğer belge türlerine erişin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:47
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:49
+msgid "Pictures"
+msgstr "Resimler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:50
+msgid "View and organize digital pictures"
+msgstr "Dijital resimleri görüntüleyin ve düzenleyin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:58
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:60
+msgid "Music"
+msgstr "Müzik"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:61
+msgid "Play music and other audio files."
+msgstr "Müzik ve diğer ses dosyalarını çalın."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:69
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:71
+msgid "Videos"
+msgstr "Videolar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:72
+msgid "Watch home movies and other digital videos."
+msgstr "Ev filmlerini ve diğer dijital videoları izleyin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:80
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:82
+msgid "Downloads"
+msgstr "İndirilenler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:83
+msgid "Find Internet downloads and links to favorite websites."
+msgstr "Internet’ten indirilenleri ve sık kullanılan web sitelerine bağlantıları bulun."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:95
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:97
+msgid "Games"
+msgstr "Oyunlar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:98
+msgid "Play and manage games on your computer."
+msgstr "Bilgisayarınızdaki oyunları oynayın ve yönetin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:106
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:108
+msgid "Recent Items"
+msgstr "Son Kullanılan Öğeler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:117
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:119
+msgid "Computer"
+msgstr "Bilgisayar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:120
+msgid "See the disk drives and other hardware connected to your computer."
+msgstr "Bilgisayarınıza bağlı disk sürücülerini ve diğer donanımları görün."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:128
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:130
+msgid "Network"
+msgstr "Ağ"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:131
+msgid "Access the computers and devices that are on your network."
+msgstr "Ağınızdaki bilgisayarlara ve aygıtlara erişin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:142
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:144
+msgid "Control Panel"
+msgstr "Denetim Masası"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:145
+msgid "Change settings and customize the functionality of your computer."
+msgstr "Ayarları değiştirin ve bilgisayarınızın işlevselliğini özelleştirin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:153
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:155
+msgid "Devices and Printers"
+msgstr "Aygıtlar ve Yazıcılar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:156
+msgid "View and manage devices, printers and print jobs"
+msgstr "Aygıtları, yazıcıları ve yazdırma işlerini görüntüleyin ve yönetin"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:164
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:166
+msgid "Default Programs"
+msgstr "Varsayılan Programlar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:167
+msgid "Choose default programs for web browsing, e-mail, playing music, and other activities."
+msgstr "Web’de gezinme, e-posta, müzik çalma ve diğer etkinlikler için varsayılan programları seçin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:175
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:177
+msgid "Help and Support"
+msgstr "Yardım ve Destek"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:178
+msgid "Find Help topics, tutorials, troubleshooting, and other support services."
+msgstr "Yardım konularını, öğreticileri, sorun gidericileri ve diğer destek hizmetlerini bulun."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:186
+msgid "Run"
+msgstr "Çalıştır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:188
+msgid "Run..."
+msgstr "Çalıştır..."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/SidePanelModels.qml:189
+msgid "Opens a program, folder, document, or web site."
+msgstr "Bir program, klasör, belge veya web sitesi açar."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/main.qml:47
+msgid "Start"
+msgstr "Başlat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/main.qml:274
+msgid "Edit Applications..."
+msgstr "Uygulamaları Düzenle..."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/main.qml:279
+msgid "Task Manager"
+msgstr "Görev Yöneticisi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/code/tools.js:55
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/code/tools.js:154
+msgid "Remove from Favorites"
+msgstr "Sık Kullanılanlardan Kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/code/tools.js:59
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/code/tools.js:158
+msgid "Add to Favorites"
+msgstr "Sık Kullanılanlara Ekle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/code/tools.js:81
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/code/tools.js:72
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
+
+#. Adding the item to link/unlink to the current activity
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/code/tools.js:131
+msgid "On The Current Activity"
+msgstr "Geçerli Etkinlikte"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/code/tools.js:145
+msgid "Show In Favorites"
+msgstr "Sık Kullanılanlarda Göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/code/tools.js:44
+msgid "Unpin from Start Menu"
+msgstr "Başlat Menüsünden Kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/code/tools.js:48
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/code/tools.js:136
+msgid "Pin to Start Menu"
+msgstr "Başlat Menüsüne Sabitle"
+
+#. Adding the item to link/unlink to the current activity
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/code/tools.js:122
+msgid "On the Current Activity"
+msgstr "Yalnızca Geçerli Etkinlikte"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.SevenStart/contents/ui/MenuRepresentation.qml:1212
+msgid "Shut down"
+msgstr "Bilgisayarı kapat"
+

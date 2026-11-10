@@ -1,0 +1,11 @@
+[Unit]
+Description=AeroThemePlasma'yı güncel KDE/Qt sürümüne göre yeniden derle (Türkçe, ayarlar korunur)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/aerothemeplasma-otomatik/guncelle.sh
+Nice=10
+IOSchedulingClass=idle
+TimeoutStartSec=4h

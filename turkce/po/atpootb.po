@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:20
+msgid "Set up AeroThemePlasma"
+msgstr "AeroThemePlasma’yı Kur"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:51
+msgid "Next"
+msgstr "İleri"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:185
+msgid "AeroThemePlasma Setup Wizard"
+msgstr "AeroThemePlasma Kurulum Sihirbazı"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:187
+msgid "Welcome to the AeroThemePlasma first time setup wizard."
+msgstr "AeroThemePlasma ilk kurulum sihirbazına hoş geldiniz."
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:194
+msgid "Microsoft® Windows™ is a registered trademark of Microsoft® Corporation. This name is used for referential use only, and does not aim to usurp copyrights from Microsoft. Microsoft Ⓒ 2025 All rights reserved. All respective resources and assets belong to Microsoft Corporation."
+msgstr "Microsoft® Windows™, Microsoft® Corporation’ın tescilli ticari markasıdır. Bu ad yalnızca atıf amacıyla kullanılmaktadır ve Microsoft’un telif haklarını gasp etme amacı taşımaz. Microsoft Ⓒ 2025 Tüm hakları saklıdır. İlgili tüm kaynaklar ve varlıklar Microsoft Corporation’a aittir."
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:202
+msgid "Look and Feel"
+msgstr "Görünüm ve Davranış"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:203
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:228
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:259
+msgid "Apply"
+msgstr "Uygula"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:209
+msgid "AeroThemePlasma will change the look and feel of the following parts of your system:\n"
+msgstr "AeroThemePlasma, sisteminizin aşağıdaki bölümlerinin görünümünü ve davranışını değiştirecek:\n"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:218
+msgid "These configurations will also be applied to the regular Plasma session."
+msgstr "Bu yapılandırmalar normal Plasma oturumuna da uygulanacak."
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:227
+msgid "SDDM Theme"
+msgstr "SDDM Teması"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:234
+msgid "AeroThemePlasma will change the look and feel of the login screen (SDDM), as well as synchronize settings between Plasma and SDDM.\n"
+msgstr "AeroThemePlasma, oturum açma ekranının (SDDM) görünümünü değiştirecek ve Plasma ile SDDM arasındaki ayarları eşitleyecek.\n"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:248
+msgid "These operations require administrator privileges."
+msgstr "Bu işlemler yönetici ayrıcalıkları gerektirir."
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:258
+msgid "Cursor Theme"
+msgstr "İmleç Teması"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:265
+msgid "AeroThemePlasma will change the default cursor theme globally in order for SDDM to recognize it.\n"
+msgstr "AeroThemePlasma, SDDM’nin tanıyabilmesi için varsayılan imleç temasını sistem genelinde değiştirecek.\n"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:279
+msgid "This operation requires administrator privileges."
+msgstr "Bu işlem yönetici ayrıcalıkları gerektirir."
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:288
+msgid "Completing the AeroThemePlasma Setup Wizard"
+msgstr "AeroThemePlasma Kurulum Sihirbazı Tamamlanıyor"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:289
+msgid "Finish"
+msgstr "Son"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:291
+msgid "Thank you for trying out AeroThemePlasma!"
+msgstr "AeroThemePlasma’yı denediğiniz için teşekkürler!"
+
+#: aerothemeplasma/plasma/atpootb/src/contents/ui/Main.qml:295
+msgid "Click Finish to exit the AeroThemePlasma wizard."
+msgstr "AeroThemePlasma sihirbazından çıkmak için Son’u tıklatın."
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:44
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "AeroShell"
+msgstr "AeroShell"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:45
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:46
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Appearance"
+msgstr "Görünüş"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:47
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Focus"
+msgstr "Odak"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:48
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Peek at Desktop Animation"
+msgstr "Masaüstüne Bak Canlandırması"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:49
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Tools"
+msgstr "Araçlar"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:50
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Virtual Desktop Switching Animation"
+msgstr "Sanal Masaüstü Geçişi Canlandırması"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:51
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Window Management"
+msgstr "Pencere Yönetimi"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:52
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Window Open/Close Animation"
+msgstr "Pencere Aç/Kapat Canlandırması"
+
+#: aerothemeplasma/plasma/atpootb/src/effectsmodel.cpp:228
+msgid "KWin development team"
+msgstr "KWin geliştirme ekibi"
+
+#. A displayable program name string.
+#: aerothemeplasma/plasma/atpootb/src/main.cpp:70
+msgctxt "@title"
+msgid "atpootb"
+msgstr "atpootb"
+
+#. Short description of what the app does.
+#: aerothemeplasma/plasma/atpootb/src/main.cpp:74
+msgid "Application Description"
+msgstr "Uygulama Açıklaması"
+
+#. Copyright Statement.
+#: aerothemeplasma/plasma/atpootb/src/main.cpp:78
+msgid "(c) 2025"
+msgstr "(c) 2025"
+
+#: aerothemeplasma/plasma/atpootb/src/main.cpp:79
+msgctxt "@info:credit"
+msgid "WackyIdeas"
+msgstr "WackyIdeas"
+
+#: aerothemeplasma/plasma/atpootb/src/main.cpp:80
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "Bakımcı"
+

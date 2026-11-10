@@ -1,0 +1,24 @@
+# Yerel paket: AeroThemePlasma (install.sh ile aynı CMake adımları)
+pkgname=aeroshell-libplasma
+pkgver=6.8.2
+pkgrel=202611070126
+pkgdesc="AeroShell libplasma çatalı"
+arch=(x86_64)
+url="https://gitgud.io/aeroshell"
+license=("GPL-2.0-or-later")
+provides=(libplasma=6.8.2)
+conflicts=(libplasma)
+groups=(aerothemeplasma-yerel)
+options=(!debug !lto)
+makedepends=(git cmake ninja extra-cmake-modules)
+source=("kaynak::git+file://$HOME/AeroKurulum/repos/libplasma#branch=Plasma/6.8")
+sha256sums=(SKIP)
+
+build() {
+  cmake -G Ninja -S kaynak -B build -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_TESTING=OFF 
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+}

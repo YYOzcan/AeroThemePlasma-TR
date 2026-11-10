@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:67
+msgid "plugged in"
+msgstr "prize takılı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:67
+msgid "not plugged in"
+msgstr "prize takılı değil"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:91
+msgid "Health: %1%"
+msgstr "Sağlık: %%1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:93
+msgid "Type: %1"
+msgstr "Tür: %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:125
+msgctxt "Battery is fully charged"
+msgid "Fully charged (%1%)"
+msgstr "Tam dolu (%%1)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:130
+msgid "%1% available"
+msgstr "%%1 kullanılabilir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:133
+msgid "not charging"
+msgstr "şarj olmuyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:133
+msgid "charging"
+msgstr "şarj oluyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:133
+msgid "%1% available (plugged in, %2)"
+msgstr "%%1 kullanılabilir (prize takılı, %2)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:139
+msgctxt "Battery is discharging"
+msgid "%1 (%2%) remaining"
+msgstr "%1 (%%2) kaldı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:141
+msgctxt "Battery is discharging"
+msgid "%1% remaining"
+msgstr "%%1 kaldı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:146
+msgctxt "Battery is currently not present in the bay"
+msgid "Not present"
+msgstr "Pil yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:151
+msgid "Battery is configured to charge up to approximately %1%."
+msgstr "Piliniz yalnızca %​%1 kadar şarj olacak şekilde yapılandırıldı."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/BatteryItem.qml:155
+msgid "Consider replacing your battery."
+msgstr "Pilinizi değiştirmeyi düşünün."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/CompactRepresentation.qml:148
+msgctxt "battery percentage below battery icon"
+msgid "%1%"
+msgstr "%​%1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:54
+msgctxt "@title:group"
+msgid "Sleep and Screen Locking after Inactivity"
+msgstr "Hareketsizlik Sonrası Uyku ve Ekran Kilidi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:61
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:89
+msgid "Power Management"
+msgstr "Güç Yönetimi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:64
+msgid "Sleep and Screen Locking is manually blocked"
+msgstr "Uyku ve ekran kilitleme elle engellendi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:64
+msgid "Sleep and Screen Locking is unblocked"
+msgstr "Uyku ve ekran kilitleme engeli kaldırıldı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:85
+msgctxt "Minimize the length of this string as much as possible"
+msgid "Manually block sleep and screen locking"
+msgstr "Uykuyu ve ekran kilidini elle engelle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:99
+msgid "Sleep and Screen Locking Blocked"
+msgstr "Uyku ve Ekran Kilidi Engelli"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:99
+msgid "Sleep and Screen Locking Unblocked"
+msgstr "Uyku ve Ekran Kilidi Engeli Açık"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:106
+msgid "Failed to unblock automatic sleep and screen locking"
+msgstr "Kendiliğinden uyku ve ekran kilidi engeli kaldırılamadı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:109
+msgid "Failed to block automatic sleep and screen locking"
+msgstr "Kendiliğinden uyku ve ekran kilidi engellenemedi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:138
+msgctxt "Minimize the length of this string as much as possible"
+msgid "Your laptop is configured not to sleep when closing the lid while an external monitor is connected."
+msgstr "Dizüstü bilgisayarınız bir dış monitör bağlıyken kapağı kapatıldığında uyumamak üzere yapılandırılmış."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:158
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:232
+msgctxt "Application name; reason"
+msgid "%1 has been prevented from blocking sleep and screen locking for %2"
+msgstr "%1 uygulamasının uykuyu ve ekran kilidini engellemesi önlendi: %2"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:161
+msgid "%1 is currently blocking sleep and screen locking (%2)"
+msgstr "%1 şu anda uykuyu ve ekran kilidini engelliyor (%2)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:163
+msgid "%1 is currently blocking sleep and screen locking (unknown reason)"
+msgstr "%1 şu anda uykuyu ve ekran kilidini engelliyor (bilinmeyen neden)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:165
+msgid "An application is currently blocking sleep and screen locking (%1)"
+msgstr "Bir uygulama şu anda uykuyu ve ekran kilidini engelliyor (%1)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:167
+msgid "An application is currently blocking sleep and screen locking (unknown reason)"
+msgstr "Bir uygulama şu anda uykuyu ve ekran kilidini engelliyor (bilinmeyen neden)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:171
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:234
+msgctxt "Application name: reason for preventing sleep and screen locking"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:173
+msgctxt "Application name: reason for preventing sleep and screen locking"
+msgid "%1: unknown reason"
+msgstr "%1: bilinmeyen neden"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:175
+msgctxt "Application name: reason for preventing sleep and screen locking"
+msgid "Unknown application: %1"
+msgstr "Bilinmeyen uygulama: %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:177
+msgctxt "Application name: reason for preventing sleep and screen locking"
+msgid "Unknown application: unknown reason"
+msgstr "Bilinmeyen uygulama: bilinmeyen neden"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:192
+msgctxt "@action:button Prevent an app from blocking automatic sleep and screen locking after inactivity"
+msgid "Unblock"
+msgstr "Engeli Kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:192
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:248
+msgctxt "@action:button Undo preventing an app from blocking automatic sleep and screen locking after inactivity"
+msgid "Block Again"
+msgstr "Yeniden Engelle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:272
+msgctxt "@action:button Prevent an app from blocking automatic sleep and screen locking after inactivity"
+msgid "Only this time"
+msgstr "Yalnızca bu kez"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/InhibitionItem.qml:277
+msgctxt "@action:button Prevent an app from blocking automatic sleep and screen locking after inactivity"
+msgid "Every time for this app and reason"
+msgstr "Bu uygulama ve neden için her zaman"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PopupDialog.qml:175
+msgid "There is a problem with your battery, so your computer might shut down suddenly."
+msgstr "Pilinizde bir sorun var, bu nedenle bilgisayarınız aniden kapanabilir."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:45
+msgid "Power Save"
+msgstr "Güç Tasarrufu"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:51
+msgid "Balanced"
+msgstr "Dengeli"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:57
+msgid "Performance"
+msgstr "Başarım"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:76
+msgid "Power Profile"
+msgstr "Güç Profili"
+
+#. && !root.isTlpInstalled
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:98
+msgid "Select a power plan:"
+msgstr "Bir güç planı seçin:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:157
+msgid "Power profile set to: "
+msgstr "Güç profili şuna ayarlandı: "
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:164
+msgid "Failed to activate %1 mode"
+msgstr "%1 kipi etkinleştirilemedi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:183
+msgid "Performance mode has been disabled to reduce heat generation because the computer has detected that it may be sitting on your lap."
+msgstr "Isı üretimin engellemek için başarım kipi devre dışı bırakıldı; çünkü bilgisayarınızın kucağında olabileceğini algıladık."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:185
+msgid "Performance mode is unavailable because the computer is running too hot."
+msgstr "Başarım kipi kullanılamıyor; çünkü bilgisayar çok ısınmış."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:187
+msgid "Performance mode is unavailable."
+msgstr "Başarım kipi kullanılamıyor."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:202
+msgid "Performance may be lowered to reduce heat generation because the computer has detected that it may be sitting on your lap."
+msgstr "Isı üretimini engellemek için başarım düşürülebilir; çünkü bilgisayarınızın kucağınızda olabileceğini algıladık."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:204
+msgid "Performance may be reduced because the computer is running too hot."
+msgstr "Başarım düşürülebilir; çünkü bilgisayar çok ısınmış."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:206
+msgid "Performance may be reduced."
+msgstr "Başarım düşürülebilir."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:218
+msgid "One application has requested activating %2:"
+msgid_plural "%1 applications have requested activating %2:"
+msgstr[0] "Bir uygulama %2 etkinleştirilmesini istedi:"
+msgstr[1] "%1 uygulama %2 etkinleştirilmesini istedi:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:236
+msgctxt "%1 is the name of the application, %2 is the reason provided by it for activating performance mode"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:254
+msgid "The TLP service automatically controls power profiles"
+msgstr "TLP hizmeti, kendiliğinden güç profillerini denetler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:256
+msgid "Power profiles are not supported on your device."
+msgstr "Aygıtınızda güç profilleri desteklenmiyor."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/PowerProfileItem.qml:257
+msgid "Power profiles may be supported on your device.<nl/>Try installing the <command>power-profiles-daemon</command> package using your distribution's package manager and restarting the system."
+msgstr "Aygıtınızda güç profilleri destekleniyor olabilir.<nl/>Dağıtımınızın paket yöneticisini kullanarak <command>power-profiles-daemon</command> paketini kurun ve sistemi yeniden başlatın."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:91
+msgid "The battery applet has enabled suppressing sleep and screen locking"
+msgstr "Pil uygulamacığı, uykuyu ve ekran kilidini bastırmayı etkinleştirdi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:112
+msgid "More power options"
+msgstr "Diğer güç seçenekleri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:131
+msgid "Battery is not present in the bay"
+msgstr "Yuvada pil yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:137
+msgid "Fully Charged"
+msgstr "Şarj dolu"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:144
+msgid "Battery at %1%, not Charging"
+msgstr "Pil %​%1, şarj olmuyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:146
+msgid "Battery at %1%, plugged in but still discharging"
+msgstr "Pil %​%1, prize takılı; ancak hâlâ boşalıyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:148
+msgid "Battery at %1%, Charging"
+msgstr "Pil %​%1, şarj oluyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:151
+msgid "Battery at %1%"
+msgstr "Pil %​%1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:159
+msgid "The power supply is not powerful enough to charge the battery"
+msgstr "Güç kaynağı pili şarj edecek kadar güçlü değil"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:163
+msgid "No Batteries Available"
+msgstr "Kullanılabilir Pil Yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:170
+msgctxt "time until fully charged - HH:MM"
+msgid "%1 until fully charged"
+msgstr "Tamamen şarj olana kadar %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:172
+msgctxt "remaining time left of battery usage - HH:MM"
+msgid "%1 remaining"
+msgstr "Kalan %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:175
+msgid "Not charging"
+msgstr "Şarj olmuyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:180
+msgid "Automatic sleep and screen locking are disabled; middle-click to re-enable"
+msgstr "Kendiliğinden uyku ve ekran kilidi devre dışı, yeniden etkinleştirmek için orta tıklayın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:182
+msgid "Middle-click to disable automatic sleep and screen locking"
+msgstr "Kendiliğinden uykuyu ve ekran kilidini devre dışı bırakmak için orta tıklayın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:187
+msgid "An application has requested activating Performance mode"
+msgid_plural "%1 applications have requested activating Performance mode"
+msgstr[0] "1 uygulama, başarım kipinin etkinleştirilmesini istedi"
+msgstr[1] "%1 uygulama, başarım kipinin etkinleştirilmesini istedi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:191
+msgid "System is in Performance mode; scroll to change"
+msgstr "Sistem “Başarım” kipinde, değiştirmek için sarın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:195
+msgid "An application has requested activating Power Save mode"
+msgid_plural "%1 applications have requested activating Power Save mode"
+msgstr[0] "1 uygulama, Güç Tasarrufu kipinin etkinleştirilmesini istedi"
+msgstr[1] "%1 uygulama, Güç Tasarrufu kipinin etkinleştirilmesini istedi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:199
+msgid "System is in Power Save mode; scroll to change"
+msgstr "Sistem “Güç Tasarrufu” kipinde, değiştirmek için sarın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:202
+msgid "System is in Balanced Power mode; scroll to change"
+msgstr "Sistem “Dengeli Güç” kipinde, değiştirmek için sarın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:314
+msgid "&Show Energy Information…"
+msgstr "&Enerji Bilgisini Göster…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.battery/contents/ui/main.qml:323
+msgid "&Configure Power Management…"
+msgstr "&Güç Yönetimini Yapılandır…"
+

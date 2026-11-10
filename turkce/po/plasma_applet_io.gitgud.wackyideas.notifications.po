@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:88
+msgid "Do not disturb"
+msgstr "Rahatsız Etmeyin"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:138
+msgid "For 1 hour"
+msgstr "1 saat için"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:143
+msgid "For 4 hours"
+msgstr "4 saat için"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:152
+msgid "Until this evening"
+msgstr "Bu akşama kadar"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:162
+msgid "Until tomorrow morning"
+msgstr "Yarın sabaha kadar"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:174
+msgid "Until Monday"
+msgstr "Pazartesi’ye kadar"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:181
+msgid "Until manually disabled"
+msgstr "Elle devre dışı bırakılana kadar"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:233
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Kendiliğinden bitiş tarihi: %1"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:245
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "%1 etkinken (%2)"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:247
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "%1 etkinken"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:253
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Ekranlar yansıtılır"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:257
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Tam ekran uygulama odakta"
+
+#. In the popup the default action is triggered by clicking on the popup
+#. however in the list this is undesirable, so instead show a clickable button
+#. in case you have a non-expired notification in history (do not disturb mode)
+#. unless it has the same label as an action
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:521
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:527
+msgctxt "@action:button"
+msgid "View"
+msgstr "Görüntüle"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:630
+msgid "Show Fewer"
+msgstr "Daha Az Göster"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:632
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "%1 Daha Göster"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:670
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:108
+msgid "No unread notifications"
+msgstr "Okunmamış bildirim yok"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:686
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:77
+msgid "Notification service not available"
+msgstr "Bildirim hizmeti kullanılamıyor"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/FullRepresentation.qml:688
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Bildirimler şu anda “%1 %2” tarafından sağlanıyor"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/ActionContainer.qml:81
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Yanıtla"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/fileinfo.cpp:170
+msgid "Open with %1"
+msgstr "%1 ile Aç"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/fileinfo.cpp:174
+msgid "Open with…"
+msgstr "Birlikte Aç…"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/filemenu.cpp:117
+msgid "Open Containing Folder"
+msgstr "İçeren Klasörü Aç"
+
+#. KStandardAction? But then the Ctrl+C shortcut makes no sense in this context
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/filemenu.cpp:131
+msgid "&Copy"
+msgstr "Ko&pyala"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/filemenu.cpp:140
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Konumu Kopyala"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/filemenu.cpp:198
+msgid "Properties"
+msgstr "Özellikler"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/globalshortcuts.cpp:23
+msgid "Toggle do not disturb"
+msgstr "Rahatsız Etmeyin Kipini Aç/Kapat"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/globalshortcuts.cpp:42
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Bildirimler Kapalı"
+
+#.
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/globalshortcuts.cpp:43
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Bildirimler Açık"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:61
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 çalışan iş"
+msgstr[1] "%1 çalışan iş"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:65
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%​%2)"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:70
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 çalışan iş (%​%2)"
+msgstr[1] "%1 çalışan iş (%​%2)"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:83
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 okunmamış bildirim"
+msgstr[1] "%1 okunmamış bildirim"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:88
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 etkin bildirim"
+msgstr[1] "%1 etkin bildirim"
+
+#. 100 days
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:101
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Şuna değin rahatsız etme: %1, çıkmak için orta tıklayın"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:104
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Rahatsız etmeyin kipi etkin; çıkmak için orta tıklayın"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:110
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Rahatsız etmeyin kipine girmek için orta tıklayın"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:117
+msgid "Open Action Center"
+msgstr "Eylem Merkezi’ni Aç"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:239
+msgid "Clear All Notifications"
+msgstr "Tüm bildirimleri temizle"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/main.qml:258
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Olay bildirimlerini ve eylemlerini yapılandır…"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/EditContextMenu.qml:32
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "Bağlantı Adresini Kopyala"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/EditContextMenu.qml:44
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopyala"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/EditContextMenu.qml:61
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:78
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "Hemen şimdi"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:84
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 dk önce"
+msgstr[1] "%1 dk önce"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:118
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "%1 sn kaldı"
+msgstr[1] "%1 sn kaldı"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:122
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "%1 dk kaldı"
+msgstr[1] "%1 dk kaldı"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:127
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "%1 sa kaldı"
+msgstr[1] "%1 sa kaldı"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:147
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:165
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr "Eski Haline Döndür"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:166
+msgid "Minimize"
+msgstr "Simge Durumuna Küçült"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/HeadingButtons.qml:188
+msgid "Close"
+msgstr "Kapat"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:34
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:111
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%2/%1"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:115
+msgctxt "How many files have been copied"
+msgid "%2 of %1 file"
+msgid_plural "%2 of %1 files"
+msgstr[0] "%2/%1 dosya"
+msgstr[1] "%2/%1 dosya"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:118
+msgctxt "How many dirs have been copied"
+msgid "%2 of %1 folder"
+msgid_plural "%2 of %1 folders"
+msgstr[0] "%2/%1 klasör"
+msgstr[1] "%2/%1 klasör"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:121
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%2 of %1 item"
+msgid_plural "%2 of %1 items"
+msgstr[0] "%2/%1 öge"
+msgstr[1] "%2/%1 öge"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:129
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 dosya"
+msgstr[1] "%1 dosya"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:131
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 klasör"
+msgstr[1] "%1 klasör"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:133
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 öge"
+msgstr[1] "%1 öge"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobDetails.qml:151
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/sn"
+
+#. the || "0" is a workaround for the fact that 0 as number is falsey, and is wrongly considered a missing argument
+#. BUG: 451807
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobItem.qml:72
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%​%1"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobItem.qml:88
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "Sürdür"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobItem.qml:89
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobItem.qml:106
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "İptal"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobItem.qml:122
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobItem.qml:158
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/ThumbnailStrip.qml:181
+msgid "More Options…"
+msgstr "Daha Fazla Seçenek…"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/JobItem.qml:186
+msgid "Open"
+msgstr "Aç"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/NotificationReplyField.qml:41
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr "Bir yanıt yaz…"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/NotificationReplyField.qml:69
+msgctxt "@action:button"
+msgid "Send"
+msgstr "Gönder"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/Summary.qml:38
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 (Duraklatıldı)"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/Summary.qml:43
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 (Başarısız)"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/Summary.qml:45
+msgid "Job Failed"
+msgstr "İş Başarısız"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/Summary.qml:49
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 (Bitti)"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/Summary.qml:51
+msgid "Job Finished"
+msgstr "İş Bitti"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/ThumbnailStrip.qml:210
+msgid "Previous"
+msgstr "Önceki"
+
+#: aerothemeplasma/plasma/plasmoids/src/notifications_src/notifications/components/ThumbnailStrip.qml:224
+msgid "Next"
+msgstr "İleri"
+

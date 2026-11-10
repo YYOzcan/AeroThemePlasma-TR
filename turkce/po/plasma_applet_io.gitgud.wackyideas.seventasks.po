@@ -1,0 +1,497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/config/config.qml:13
+msgid "Appearance"
+msgstr "Görünüm"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/config/config.qml:18
+msgid "Behavior"
+msgstr "Davranış"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Badge.qml:63
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "—"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Badge.qml:65
+msgctxt "Over 9 new messages, overlay, keep short"
+msgid "9+"
+msgstr "9+"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:62
+msgid "Window previews"
+msgstr "Pencere önizlemeleri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:69
+msgid "Enabled"
+msgstr "Etkin"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:73
+msgid "Use Window Peek to peek at a single application"
+msgstr "Tek bir uygulamaya göz atmak için Pencere Peek özelliğini kullan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:78
+msgid "Caption alignment:"
+msgstr "Başlık hizalaması:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:84
+msgid "Left"
+msgstr "Sol"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:85
+msgid "Center"
+msgstr "Merkez"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:86
+msgid "Right"
+msgstr "Sağ"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:93
+msgid "Show mute button when an app is playing audio"
+msgstr "Bir uygulama ses çalarken sessize alma düğmesini göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:103
+msgid "General"
+msgstr "Genel"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:110
+msgid "Show labels next to task icons"
+msgstr "Görev simgelerinin yanında etiketleri göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:114
+msgid "Disable hot tracking"
+msgstr "Renkli vurgulamayı (hot tracking) kapat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigAppearance.qml:118
+msgid "Use traditional context menus instead of jumplists"
+msgstr "Atlama listeleri yerine geleneksel bağlam menülerini kullan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:52
+msgid "Group:"
+msgstr "Grupla:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:55
+msgid "Do not group"
+msgstr "Gruplandırma"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:55
+msgid "By program name"
+msgstr "Program adına göre"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:61
+msgid "Clicking grouped task:"
+msgstr "Gruplanmış görevlere tıklamak:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:69
+msgctxt "Completes the sentence 'Clicking grouped task cycles through tasks' "
+msgid "Cycles through tasks"
+msgstr "Görevler arasında geçiş yapar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:70
+msgctxt "Completes the sentence 'Clicking grouped task shows tooltip window thumbnails' "
+msgid "Shows small window previews"
+msgstr "Küçük pencere önizlemelerini gösterir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:71
+msgctxt "Completes the sentence 'Clicking grouped task shows windows side by side' "
+msgid "Shows large window previews"
+msgstr "Büyük pencere önizlemelerini gösterir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:72
+msgctxt "Completes the sentence 'Clicking grouped task shows textual list' "
+msgid "Shows textual list"
+msgstr "Metin listesini gösterir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:83
+msgid "The compositor does not support displaying windows side by side, so a textual list will be displayed instead."
+msgstr "Bileşikleştirici pencereleri yan yana görüntülemeyi desteklemiyor, bunun yerine bir metin listesi görüntülenecek."
+
+#. (Plasmoid.pluginName !== "org.kde.plasma.icontasks")
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:90
+msgid "Group only when the Task Manager is full"
+msgstr "Yalnızca görev çubuğu dolduğunda grupla"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:102
+msgid "Sort:"
+msgstr "Sırala:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:105
+msgid "Do not sort"
+msgstr "Sıralama yapma"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:105
+msgid "Manually"
+msgstr "Elle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:105
+msgid "Alphabetically"
+msgstr "Abecesel olarak"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:105
+msgid "By desktop"
+msgstr "Masaüstüne göre"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:105
+msgid "By activity"
+msgstr "Etkinliğe göre"
+
+#. visible: !iconsOnly//(Plasmoid.pluginName !== "org.kde.plasma.icontasks")
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:111
+msgid "Group tasks together"
+msgstr "Görevleri birlikte grupla"
+
+#. (Plasmoid.pluginName !== "org.kde.plasma.icontasks")
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:116
+msgid "Keep launchers separate"
+msgstr "Başlatıcıları ayrı tut"
+
+#. (Plasmoid.pluginName !== "org.kde.plasma.icontasks")
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:123
+msgid "Hide launchers after application startup"
+msgstr "Uygulama başlangıcından sonra başlatıcıları gizle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:133
+msgctxt "Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Clicking active task:"
+msgstr "Etkin göreve tıklamak:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:134
+msgctxt "Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "Görevi küçültür"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:139
+msgid "Middle-clicking any task:"
+msgstr "Bir göreve orta tıklamak:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:143
+msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "Bir şey yapmaz"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:144
+msgctxt "Part of a sentence: 'Middle-clicking any task closes window or group'"
+msgid "Closes window or group"
+msgstr "Pencereyi veya grubu kapatır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:145
+msgctxt "Part of a sentence: 'Middle-clicking any task opens a new window'"
+msgid "Opens a new window"
+msgstr "Yeni bir pencere açar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:146
+msgctxt "Part of a sentence: 'Middle-clicking any task minimizes/restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "Pencereyi veya grubu küçültür/eski haline getirir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:147
+msgctxt "Part of a sentence: 'Middle-clicking any task toggles grouping'"
+msgid "Toggles grouping"
+msgstr "Gruplandırmayı açar/kapatır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:148
+msgctxt "Part of a sentence: 'Middle-clicking any task brings it to the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "Geçerli sanal masaüstüne getirir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:159
+msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+msgid "Mouse wheel:"
+msgstr "Fare tekerleği:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:160
+msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+msgid "Cycles through tasks"
+msgstr "Görevler arasında geçiş yapar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:171
+msgid "Skip minimized tasks"
+msgstr "Küçültülmüş görevleri atla"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:182
+msgid "Show only tasks:"
+msgstr "Görevleri yalnızca:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:183
+msgid "From current screen"
+msgstr "Geçerli ekrandan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:188
+msgid "From current desktop"
+msgstr "Geçerli masaüstünden"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:193
+msgid "From current activity"
+msgstr "Geçerli etkinlikten"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:198
+msgid "That are minimized"
+msgstr "Küçültülmüş olanlardan göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:207
+msgid "When panel is hidden:"
+msgstr "Panel gizliyken:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:208
+msgid "Unhide when a window wants attention"
+msgstr "Bir pencere dikkat çekmek istediğinde göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:220
+msgid "New tasks appear:"
+msgstr "Yeni görevler şurada görünür:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:224
+msgid "On the bottom"
+msgstr "Altta"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:228
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:248
+msgid "To the right"
+msgstr "Sağda"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:230
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:246
+msgid "To the left"
+msgstr "Solda"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ConfigBehavior.qml:242
+msgid "On the Top"
+msgstr "Üstte"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:107
+msgid "Places"
+msgstr "Yerler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:113
+msgid "Recent Files"
+msgstr "Son Kullanılan Dosyalar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:120
+msgid "Actions"
+msgstr "Eylemler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:181
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:297
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Önceki Parça"
+
+#. if CanPause, toggle the menu entry between Play & Pause, otherwise always use Play
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:195
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:312
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:195
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:312
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Oynat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:213
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:332
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Sonraki Parça"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:224
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:342
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Durdur"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:244
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:355
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "Çık"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:259
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:369
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "Geri Yükle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:284
+msgid "Mute"
+msgstr "Sesi Kapat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:295
+msgid "Open New Window"
+msgstr "Yeni Pencere Aç"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:311
+msgid "Move to &Desktop"
+msgstr "Masaüstüne &Taşı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:335
+msgid "Move &To Current Desktop"
+msgstr "&Geçerli Masaüstüne Taşı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:344
+msgid "&All Desktops"
+msgstr "&Tüm Masaüstleri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:372
+msgid "&New Desktop"
+msgstr "&Yeni Masaüstü"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:392
+msgid "Show in &Activities"
+msgstr "&Etkinliklerde Göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:416
+msgid "Add To Current Activity"
+msgstr "Geçerli Etkinliğe Ekle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:426
+msgid "All Activities"
+msgstr "Tüm Etkinlikler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:484
+msgid "Move to %1"
+msgstr "Şuraya Taşı: %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:512
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:529
+msgid "&Pin to Task Manager"
+msgstr "Görev Çubuğuna &Sabitle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:582
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:588
+msgid "On The Current Activity"
+msgstr "Geçerli Etkinlikte"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:613
+msgid "Unpin from Task Manager"
+msgstr "Görev Çubuğundan Kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:628
+msgid "More"
+msgstr "Daha Fazla"
+
+#. tasksMenu.get(atm.IsMovable)
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:637
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:372
+msgid "&Move"
+msgstr "&Taşı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:646
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:381
+msgid "Re&size"
+msgstr "&Yeniden Boyutlandır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:660
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:395
+msgid "Ma&ximize"
+msgstr "Ekranı &Kapla"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:674
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:409
+msgid "Mi&nimize"
+msgstr "Simge &Durumuna Küçült"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:684
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:419
+msgid "Keep &Above Others"
+msgstr "&Diğerlerinin Üzerinde Tut"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:694
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:429
+msgid "Keep &Below Others"
+msgstr "Diğerlerinin &Altında Tut"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:706
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:441
+msgid "&Fullscreen"
+msgstr "Tam &Ekran"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:722
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:457
+msgid "Allow this program to be grouped"
+msgstr "Bu Programın Gruplandırılmasına İzin Ver"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:768
+msgctxt "@item:inmenu"
+msgid "&Close All"
+msgstr "Tümünü &Kapat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/ContextMenu.qml:768
+msgid "&Close"
+msgstr "&Kapat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:235
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "Çalıştır: %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:246
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "%1 için görev ipuçlarını göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:252
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "%1 için pencereleri yan yana göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:257
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "%1 için pencerelerin bir listesini aç"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:261
+msgid "Activate %1"
+msgstr "Etkinleştir: %1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:468
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:539
+msgid "Close all windows"
+msgstr "Tüm pencereleri kapat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/Task.qml:468
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:539
+msgid "Close window"
+msgstr "Pencereyi kapat"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:226
+msgid "Frequent"
+msgstr "Sık Kullanılanlar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:231
+msgid "Recent"
+msgstr "Son Kullanılanlar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:236
+msgid "Tasks"
+msgstr "Görevler"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:295
+msgid "Media"
+msgstr "Medya"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:493
+msgid "Pin program to taskbar"
+msgstr "Bu programı görev çubuğuna sabitle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/TasksMenu.qml:522
+msgid "Unpin program from taskbar"
+msgstr "Bu programı görev çubuğundan kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.seventasks/contents/ui/main.qml:66
+msgid "Task Manager"
+msgstr "Görev Yöneticisi"
+

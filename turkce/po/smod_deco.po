@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: smod/kdecoration/config/smodexceptionlistwidget.cpp:88
+msgid "New Exception - Breeze Settings"
+msgstr "Yeni İstisna — Esinti Ayarları"
+
+#: smod/kdecoration/config/smodexceptionlistwidget.cpp:136
+msgid "Edit Exception"
+msgstr "İstisnayı Düzenle"
+
+#: smod/kdecoration/config/smodexceptionlistwidget.cpp:166
+msgid "Question"
+msgstr "Soru"
+
+#: smod/kdecoration/config/smodexceptionlistwidget.cpp:166
+msgid "Remove selected exception?"
+msgstr "Seçili istisna kaldırılsın mı?"
+
+#: smod/kdecoration/config/smodexceptionlistwidget.cpp:167
+msgid "Remove"
+msgstr "Kaldır"
+
+#: smod/kdecoration/config/smodexceptionlistwidget.cpp:297
+msgid "Warning"
+msgstr "Uyarı"
+
+#: smod/kdecoration/config/smodexceptionlistwidget.cpp:297
+msgid "Regular Expression syntax is incorrect"
+msgstr "Düzenli ifade sözdizimi geçersiz"
+
+#. ///////////////////////_
+#: smod/kdecoration/config/smodexceptionmodel.cpp:17
+msgid "Exception Type"
+msgstr "İstisna Türü"
+
+#: smod/kdecoration/config/smodexceptionmodel.cpp:17
+msgid "Regular Expression"
+msgstr "Düzenli İfade"
+
+#: smod/kdecoration/config/smodexceptionmodel.cpp:36
+msgid "Window Title"
+msgstr "Pencere başlığı"
+
+#: smod/kdecoration/config/smodexceptionmodel.cpp:40
+msgid "Window Class Name"
+msgstr "Pencere sınıfı adı"
+
+#: smod/kdecoration/config/smodexceptionmodel.cpp:55
+msgid "Enable/disable this exception"
+msgstr "Bu istisnayı etkinleştir/devre dışı bırak"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Titlebar size:"
+msgstr "Başlık çubuğu boyutu:"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Tweaks"
+msgstr "İnce ayarlar"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Invert titlebar text color on maximized windows"
+msgstr "Ekranı kaplayan pencerelerde başlık metni rengini ters çevir"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Enable drop shadows"
+msgstr "Gölgeleri etkinleştir"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Tit&le alignment:"
+msgstr "Baş&lık hizalama:"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Left"
+msgstr "Sol"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Center"
+msgstr "Orta"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Right"
+msgstr "Sağ"
+
+#: smod/kdecoration/config/ui/smodconfigurationui.ui
+msgid "Center (Full Width)"
+msgstr "Orta (Tam Genişlik)"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Dialog"
+msgstr "İletişim Kutusu"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Window Identification"
+msgstr "Pencere Kimliği"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "&Matching window property: "
+msgstr "&Eşleşen pencere özelliği: "
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Regular expression &to match: "
+msgstr "&Eşleştirilecek düzenli ifade: "
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Detect Window Properties…"
+msgstr "Pencere Özelliklerini Algıla…"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Decoration Options"
+msgstr "Dekorasyon Seçenekleri"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Border size:"
+msgstr "Kenarlık boyutu:"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Hide window title bar"
+msgstr "Pencere başlık çubuğunu gizle"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "No Border"
+msgstr "Kenarlık yok"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "No Side Borders"
+msgstr "Kenarda çizgiler yok"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "Tiny"
+msgstr "Çok küçük"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "Normal"
+msgstr "Normal"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "Large"
+msgstr "Büyük"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Large"
+msgstr "Çok büyük"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "Huge"
+msgstr "Kocaman"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Huge"
+msgstr "En büyük"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgctxt "@item:inlistbox Border size:"
+msgid "Oversized"
+msgstr "Devasa"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Hide window icon"
+msgstr "Pencere simgesini gizle"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Hide window caption"
+msgstr "Pencere başlığını gizle"
+
+#: smod/kdecoration/config/ui/smodexceptiondialog.ui
+msgid "Hide window inner border"
+msgstr "Pencere iç kenarlığını gizle"
+
+#: smod/kdecoration/config/ui/smodexceptionlistwidget.ui
+msgid "Move Up"
+msgstr "Yukarı Taşı"
+
+#: smod/kdecoration/config/ui/smodexceptionlistwidget.ui
+msgid "Move Down"
+msgstr "Aşağı Taşı"
+
+#: smod/kdecoration/config/ui/smodexceptionlistwidget.ui
+msgid "Add"
+msgstr "Ekle"
+
+#: smod/kdecoration/config/ui/smodexceptionlistwidget.ui
+msgid "Edit"
+msgstr "Düzenle"
+

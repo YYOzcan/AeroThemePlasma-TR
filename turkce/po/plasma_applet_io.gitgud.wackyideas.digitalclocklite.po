@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/config/config.qml:33
+msgid "Appearance"
+msgstr "Görünüş"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/config/config.qml:38
+msgid "Calendar"
+msgstr "Takvim"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/config/config.qml:43
+msgid "Time Zones"
+msgstr "Zaman Dilimleri"
+
+#. anchors.rightMargin: Kirigami.Units.largeSpacing
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/CalendarView.qml:490
+msgid "No events for today"
+msgstr "Bugün etkinlik yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/CalendarView.qml:491
+msgid "No events for this day"
+msgstr "Seçilen gün için etkinlik yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/CalendarView.qml:537
+msgid "Change date and time settings..."
+msgstr "Tarih ve saat ayarlarını değiştir..."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:64
+msgid "Information"
+msgstr "Bilgi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:70
+msgid "Show date"
+msgstr "Tarihi göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:74
+msgid "Hide date on shorter taskbars"
+msgstr "Kısa görev çubuklarında tarihi gizle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:79
+msgid "Show seconds"
+msgstr "Saniyeleri göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:83
+msgid "Show pin button"
+msgstr "Sabitleme düğmesini göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:88
+msgctxt "Checkbox label; means 24h clock format, without am/pm"
+msgid "Use 24-hour Clock"
+msgstr "24 saat biçimini kullan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:93
+msgid "Show local time zone"
+msgstr "Yerel saat dilimini göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:115
+msgid "Time zone city"
+msgstr "Saat dilimi şehri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:121
+msgid "Time zone code"
+msgstr "Saat dilimi kodu"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:129
+msgid "Date format:"
+msgstr "Tarih biçimi:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:138
+msgid "Long Date"
+msgstr "Uzun Tarih"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:142
+msgid "Short Date"
+msgstr "Kısa Tarih"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:146
+msgid "ISO Date"
+msgstr "ISO Tarihi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:150
+msgid "Custom Date"
+msgstr "Özel Tarih"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:170
+msgid "Custom format:"
+msgstr "Özel biçim:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:193
+msgid "Use default font"
+msgstr "Öntanımlı yazıtipini kullan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:200
+msgctxt "@info The selected font family (%1) and font size (%2)"
+msgid "%1 %2 pt"
+msgstr "%1 %2 pnt"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:207
+msgid "Select Font..."
+msgstr "Yazı Tipi Seç..."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:228
+msgid "Bold"
+msgstr "Kalın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:241
+msgid "Italic"
+msgstr "Eğik"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configAppearance.qml:249
+msgctxt "@title:window"
+msgid "Select Font"
+msgstr "Yazıtipi Seç"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configCalendar.qml:54
+msgid "Show week numbers in Calendar"
+msgstr "Takvimde hafta numaralarını göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configCalendar.qml:62
+msgid "First day of week:"
+msgstr "Haftanın ilk günü:"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configCalendar.qml:71
+msgid "Use Region Defaults"
+msgstr "Bölge Varsayılanlarını Kullan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configCalendar.qml:80
+msgid "Available Calendar Plugins"
+msgstr "Kullanılabilir Takvim Eklentileri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:42
+msgid "Tip: if you travel frequently, add your home time zone to this list. It will only appear when you change the systemwide time zone to something else."
+msgstr "İpucu: Sık seyahat ediyorsanız evinizin saat dilimini bu listeye ekleyin. Yalnızca sistem genelindeki saat dilimini başka bir dilime değiştirdiğinizde görünür."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:78
+msgid "Clock is currently using this time zone"
+msgstr "Saat şu anda bu zaman dilimini kullanıyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:80
+msgctxt "@label This list item shows a time zone city name that is identical to the local time zone's city, and will be hidden in the timezone display in the plasmoid's popup"
+msgid "Hidden while this is the local time zone's city"
+msgstr "Bu yerel zaman diliminin şehriyken gizli"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:105
+msgid "Switch Systemwide Time Zone…"
+msgstr "Sistem Geneli Zaman Dilimini Değiştir…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:117
+msgid "Remove this time zone"
+msgstr "Bu zaman dilimini kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:127
+msgid "Systemwide Time Zone"
+msgstr "Sistem Geneli Zaman Dilimi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:127
+msgid "Additional Time Zones"
+msgstr "Ek Zaman Dilimleri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:140
+msgid "Add more time zones to display all of them in the applet's pop-up, or use one of them for the clock itself"
+msgstr "Tümünü uygulamanın açılır penceresinde görüntülemek için daha fazla zaman dilimi ekleyin veya bunlardan birini saatin kendisi için kullanın"
+
+#. Explicitly set so it gets reversed for LTR mode
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:149
+msgid "Add Time Zones…"
+msgstr "Saat Dilimi Ekle…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:159
+msgid "Switch displayed time zone by scrolling over clock applet"
+msgstr "Saat uygulaması üzerinde gezinerek görüntülenen zaman dilimini değiştirin"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:166
+msgid "Using this feature does not change the systemwide time zone. When you travel, switch the systemwide time zone instead."
+msgstr "Bu özelliği kullanmak, sistem geneli zaman dilimini değiştirmez. Bunun yerine yolculuk yaparken sistem geneli zaman dilimine geçin."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:188
+msgid "Add More Timezones"
+msgstr "Daha Fazla Saat Dilimi Ekle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:199
+msgid "At least one time zone needs to be enabled. Your local timezone was enabled automatically."
+msgstr "En az bir saat diliminin etkin olması gerekir. Yerel saat diliminiz kendiliğinden etkinleştirildi."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:235
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/configTimeZones.qml:237
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/main.qml:105
+msgid "Adjust Date and Time…"
+msgstr "Tarih ve Saati Ayarla…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/main.qml:111
+msgid "Set Time Format…"
+msgstr "Saat Biçimini Ayarla…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/CustomMonthView.qml:256
+msgctxt "Format: month year"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/CustomMonthView.qml:258
+msgctxt "Format: year"
+msgid "%1"
+msgstr "%1"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.digitalclocklite/contents/ui/CustomMonthView.qml:262
+msgctxt "Format: year-year"
+msgid "%1-%2"
+msgstr "%1-%2"
+

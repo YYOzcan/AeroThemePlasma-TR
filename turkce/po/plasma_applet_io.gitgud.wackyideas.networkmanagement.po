@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. icon.name: isDeactivated ? "network-connect" : "network-disconnect"
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:119
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:168
+msgid "Connect"
+msgstr "Bağlan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:119
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:168
+msgid "Disconnect"
+msgstr "Bağlantıyı Kes"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:123
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsWindow.qml:118
+msgid "Speed"
+msgstr "Hız"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:138
+msgid "Show Network's QR Code"
+msgstr "Ağın QR Kodunu Göster"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:146
+msgid "Configure…"
+msgstr "Yapılandır…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:172
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:284
+msgid "Sign in required"
+msgstr "Oturum açmak gerekiyor"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:286
+msgid "No network access"
+msgstr "Ağ erişimi yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:288
+msgid "Internet access"
+msgstr "Internet erişimi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:290
+msgid "No Internet access"
+msgstr "Internet erişimi yok"
+
+#. Separator is part of section, which is visible only when available connections exist. Need to determine
+#. if there is a connection in use, to show Separator. Otherwise need to hide it from the top of the list.
+#. Connections in use are always on top, only need to check the first one.
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionItem.qml:316
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:71
+msgid "Available"
+msgstr "Kullanılabilir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:71
+msgid "Available connections"
+msgstr "Kullanılabilir bağlantılar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:96
+msgid "Airplane mode is enabled"
+msgstr "Uçak Kipi etkin"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:100
+msgid "Wireless and mobile networks are deactivated"
+msgstr "Kablosuz ve mobil ağlar kapalı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:102
+msgid "Wireless is deactivated"
+msgstr "Kablosuz kapalı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:105
+msgid "Mobile network is deactivated"
+msgstr "Mobil ağ kapalı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:108
+msgid "No matches"
+msgstr "Eşleşme yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ConnectionListPage.qml:110
+msgid "No available connections"
+msgstr "Kullanılabilir bağlantı yok"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsText.qml:114
+msgid "Copy"
+msgstr "Kopyala"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsText.qml:131
+msgid "Connection"
+msgstr "Bağlantı"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsText.qml:229
+msgid "Activity"
+msgstr "Etkinlik"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsText.qml:256
+msgid "Sent"
+msgstr "Gönderilen"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsText.qml:297
+msgid "Received"
+msgstr "Alınan"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsText.qml:299
+msgid "Bytes:"
+msgstr "Bayt:"
+
+#. All this just to make the sizing correct
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsWindow.qml:86
+msgid "General"
+msgstr "Genel"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/DetailsWindow.qml:164
+msgid "Close"
+msgstr "Kapat"
+
+#. Sections have spacing above but not below. Will use 2 of them below.
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ListItem.qml:27
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ListItem.qml:30
+msgid "Connected"
+msgstr "Bağlı"
+
+#. Layout.alignment: Qt.AlignRight | Qt.AlignBottom
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/PopupDialog.qml:128
+msgid "Back"
+msgstr "Geri"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/ShareNetworkQrCodePage.qml:32
+msgid "Scan this QR code with another device to connect to the \"%1\" network."
+msgstr "“%1” ağına bağlanmak için bu kare kodu başka bir aygıtla tarayın."
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/Toolbar.qml:76
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/Toolbar.qml:124
+msgid "Mobile network"
+msgstr "Mobil ağ"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/Toolbar.qml:142
+msgid "Airplane mode"
+msgstr "Uçak modu"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/Toolbar.qml:233
+msgid "Configure network connections…"
+msgstr "Ağ Bağlantılarını Yapılandır…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:27
+msgctxt "@info:tooltip"
+msgid "Current download speed is %1 kibibytes per second; current upload speed is %2 kibibytes per second"
+msgstr "Geçerli indirme hızı saniye başına %1 kibibayt; geçerli karşıya yükleme hızı saniye başına %2 kibibayt"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:65
+msgid "Graph"
+msgstr "Grafik"
+
+#. Measure 888.8 KiB/s
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:94
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:171
+msgid "/s"
+msgstr "/sn"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:149
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:236
+msgid "Upload"
+msgstr "Karşıya Yükle"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:149
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:227
+msgid "Download"
+msgstr "İndir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/TrafficMonitor.qml:208
+msgid "Status"
+msgstr "Durum"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:72
+msgid "Open Network and Sharing Center"
+msgstr "Ağ ve Paylaşım Merkezi’ni Aç"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:73
+msgid "Networks"
+msgstr "Ağlar"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:82
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn off Airplane Mode"
+msgstr "Uçak Kipi’ni kapatmak için orta tıklayın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:84
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn on Airplane Mode"
+msgstr "Uçak Kipi’ni açmak için orta tıklayın"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:121
+msgid "Enable Wi-Fi"
+msgstr "Wi-Fi’yi Etkinleştir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:132
+msgid "Enable Mobile Network"
+msgstr "Mobil Ağı Etkinleştir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:144
+msgid "Enable Airplane Mode"
+msgstr "Uçak Kipi’ni Etkinleştir"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:157
+msgid "Hotspot"
+msgstr "Erişim Noktası"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:178
+msgid "Scan Wifi QR Code"
+msgstr "Wi-Fi QR Kodunu Tara"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:185
+msgid "Open Network Login Page…"
+msgstr "Ağ Oturum Açma Sayfasını Aç…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.networkmanagement/contents/ui/main.qml:196
+msgid "&Configure Network Connections…"
+msgstr "&Ağ Bağlantılarını Yapılandır…"
+

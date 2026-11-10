@@ -1,0 +1,20 @@
+# Yerel paket: Windows 7 görünümü için yazı tipleri
+pkgname=aero-yazitipleri
+pkgver=1.0
+pkgrel=2
+pkgdesc="Selawik (Segoe UI muadili, OFL), Türkçe harfleri eklenmiş TerminalVector ve fontconfig eşlemeleri"
+arch=(any)
+license=("OFL-1.1" "LicenseRef-PublicDomain")
+groups=(aerothemeplasma-yerel)
+depends=(fontconfig ttf-dejavu)
+source=(selawk.ttf selawkb.ttf selawkl.ttf selawksb.ttf selawksl.ttf TerminalVector.ttf TerminalVector.txt 29-aero-segoe-selawik.conf)
+sha256sums=(SKIP SKIP SKIP SKIP SKIP SKIP SKIP SKIP)
+
+package() {
+  install -Dm644 -t "$pkgdir/usr/share/fonts/selawik" selawk*.ttf
+  install -Dm644 TerminalVector.ttf "$pkgdir/usr/share/fonts/TTF/TerminalVector.ttf"
+  install -Dm644 TerminalVector.txt "$pkgdir/usr/share/licenses/$pkgname/TerminalVector.txt"
+  install -Dm644 29-aero-segoe-selawik.conf "$pkgdir/usr/share/fontconfig/conf.avail/29-aero-segoe-selawik.conf"
+  install -dm755 "$pkgdir/etc/fonts/conf.d"
+  ln -s /usr/share/fontconfig/conf.avail/29-aero-segoe-selawik.conf "$pkgdir/etc/fonts/conf.d/29-aero-segoe-selawik.conf"
+}

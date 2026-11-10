@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:288
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] "%1 Yer Daha…"
+msgstr[1] "%1 Yer Daha…"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:372
+msgid "Recent Downloads"
+msgstr "Son Yapılan İndirmeler"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:374
+msgid "Recent Connections"
+msgstr "Son Yapılan Bağlantılar"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:376
+msgid "Recent Places"
+msgstr "Son Gidilen Yerler"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:385
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr "Son Yapılan İndirmeleri Unut"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:387
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr "Son Yapılan Bağlantıları Unut"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:389
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr "Son Gidilen Yerleri Unut"
+
+#: aeroshell-workspace/libtaskmanager/backend.cpp:391
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "Son Kullanılan Dosyaları Unut"
+

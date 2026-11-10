@@ -1,0 +1,3 @@
+#!/bin/sh
+# Elle tetikleme: AeroThemePlasma'yı şimdi yeniden derle (ilerleme: journalctl -fu aerothemeplasma-guncelle)
+exec systemctl start --no-block aerothemeplasma-guncelle.service

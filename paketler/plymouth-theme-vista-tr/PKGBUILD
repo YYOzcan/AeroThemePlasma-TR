@@ -1,0 +1,40 @@
+# Yerel paket: PlymouthVista (Windows 7 kipi, Türkçe)
+pkgname=plymouth-theme-vista-tr
+pkgver=2026.07.26
+pkgrel=1
+pkgdesc="Windows 7 açılış/kapanış ekranı (PlymouthVista) - Türkçe, açılış animasyonu uzatmalı"
+arch=(any)
+url="https://github.com/furkrn/PlymouthVista"
+license=("MIT")
+groups=(aerothemeplasma-yerel)
+depends=(plymouth aero-yazitipleri)
+makedepends=(git imagemagick)
+source=("src::git+file://$HOME/AeroKurulum/plymouth/PlymouthVista" yapilandir.py)
+sha256sums=(SKIP SKIP)
+
+prepare() {
+  python3 "$srcdir/yapilandir.py" "$srcdir/src"
+}
+
+build() {
+  cd src
+  bash ./compile.sh
+  bash ./gen_blur.sh
+}
+
+package() {
+  cd src
+  local t="$pkgdir/usr/share/plymouth/themes/PlymouthVista"
+  install -Dm644 PlymouthVista.plymouth "$t/PlymouthVista.plymouth"
+  install -Dm644 PlymouthVista.script "$t/PlymouthVista.script"
+  install -Dm755 pv_conf.sh "$t/pv_conf.sh"
+  install -Dm755 plymouth_state_updater.sh "$t/plymouth_state_updater.sh"
+  install -Dm755 readplyconf.sh "$t/readplyconf.sh"
+  cp -r images "$t/images"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 systemd/slowdown/plymouth-vista-slow-boot-animation.service "$pkgdir/usr/lib/systemd/system/plymouth-vista-slow-boot-animation.service"
+  install -Dm644 systemd/no-wall/plymouth-vista-no-wall.service "$pkgdir/usr/lib/systemd/system/plymouth-vista-no-wall.service"
+  install -Dm644 lucon_disable_anti_aliasing.conf "$pkgdir/usr/share/fontconfig/conf.avail/10-lucon_disable_anti_aliasing.conf"
+  install -dm755 "$pkgdir/etc/fonts/conf.d"
+  ln -s /usr/share/fontconfig/conf.avail/10-lucon_disable_anti_aliasing.conf "$pkgdir/etc/fonts/conf.d/10-lucon_disable_anti_aliasing.conf"
+}

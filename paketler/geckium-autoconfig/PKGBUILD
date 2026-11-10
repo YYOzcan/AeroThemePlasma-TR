@@ -1,0 +1,17 @@
+# Yerel paket: Geckium için Firefox autoconfig yükleyicisi (fx-autoconfig)
+pkgname=geckium-autoconfig
+pkgver=0.20.21.2
+pkgrel=1
+pkgdesc="Geckium (Firefox) için config.js / config-prefs.js autoconfig yükleyicisi"
+arch=(any)
+url="https://github.com/Neo-Kitchenfox/Geckium"
+license=("MPL-2.0")
+groups=(aerothemeplasma-yerel)
+depends=(firefox)
+source=(config.js config-prefs.js)
+sha256sums=(SKIP SKIP)
+
+package() {
+  install -Dm644 config.js "$pkgdir/usr/lib/firefox/config.js"
+  install -Dm644 config-prefs.js "$pkgdir/usr/lib/firefox/defaults/pref/config-prefs.js"
+}

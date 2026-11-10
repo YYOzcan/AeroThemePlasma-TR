@@ -1,0 +1,29 @@
+# Yerel paket: AeroThemePlasma (install.sh ile aynı CMake adımları)
+pkgname=aeroshell-sddm-kcm
+pkgver=6.7.5
+pkgrel=202611070130
+pkgdesc="AeroShell SDDM ayar modülü"
+arch=(x86_64)
+url="https://gitgud.io/aeroshell"
+license=("GPL-2.0-or-later")
+provides=()
+conflicts=()
+groups=(aerothemeplasma-yerel)
+options=(!debug !lto)
+makedepends=(git cmake ninja extra-cmake-modules)
+source=("kaynak::git+file://$HOME/AeroKurulum/repos/aeroshell-sddm-kcm#branch=master")
+sha256sums=(SKIP)
+
+prepare() {
+  # Türkçe yerelleştirme yamaları
+  python3 $HOME/AeroKurulum/turkce/araclar/yama.py aeroshell-sddm-kcm "$srcdir/kaynak"
+}
+
+build() {
+  cmake -G Ninja -S kaynak -B build -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_TESTING=OFF 
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+}

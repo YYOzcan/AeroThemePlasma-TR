@@ -1,0 +1,21 @@
+# Yerel paket: AeroThemePlasma Türkçe çeviri katalogları
+pkgname=aerothemeplasma-tr
+pkgver=6.8.0
+pkgrel=202611070132
+pkgdesc="AeroThemePlasma bileşenleri için Türkçe çeviriler (Windows 7 terminolojisi)"
+arch=(any)
+url="https://gitgud.io/aeroshell"
+license=("GPL-2.0-or-later")
+groups=(aerothemeplasma-yerel)
+depends=(aerothemeplasma-desktop)
+
+package() {
+  local mo=$HOME/AeroKurulum/turkce/mo
+  install -dm755 "$pkgdir/usr/share/locale/tr/LC_MESSAGES"
+  for f in "$mo"/*.mo; do
+    case "$(basename "$f")" in
+      aeroshell-kwin-components.mo|uac-polkit-agent.mo) continue ;;  # kendi paketlerinde ki18n_install ile kuruluyor
+    esac
+    install -m644 "$f" "$pkgdir/usr/share/locale/tr/LC_MESSAGES/"
+  done
+}

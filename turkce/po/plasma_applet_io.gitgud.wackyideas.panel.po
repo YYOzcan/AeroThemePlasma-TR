@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aerothemeplasma-tr\n"
+"PO-Revision-Date: 2026-11-07 01:00+0300\n"
+"Last-Translator: Yerel kurulum\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.panel/contents/ui/ConfigOverlay.qml:257
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.panel/contents/ui/ConfigOverlay.qml:291
+msgid "Remove"
+msgstr "Kaldır"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.panel/contents/ui/ConfigOverlay.qml:267
+msgid "Configure…"
+msgstr "Yapılandır…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.panel/contents/ui/ConfigOverlay.qml:278
+msgid "Show Alternatives…"
+msgstr "Alternatifleri Göster…"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.panel/contents/ui/ConfigOverlay.qml:301
+msgid "Spacer width"
+msgstr "Boşluklandırıcı genişliği"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.panel/contents/ui/main.qml:583
+msgid "Open Panel configuration ui"
+msgstr "Panel yapılandırması arayüzünü aç"
+
+#: aerothemeplasma/plasma/plasmoids/io.gitgud.wackyideas.panel/contents/ui/main.qml:590
+msgid "Add Widgets…"
+msgstr "Araç Takımları Ekle…"
+
