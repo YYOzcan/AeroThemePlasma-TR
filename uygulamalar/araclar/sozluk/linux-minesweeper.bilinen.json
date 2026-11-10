@@ -1,0 +1,16 @@
+[
+":/assets/Frame.bmp",
+":/assets/Minesweeper.ico",
+":/assets/blueSheet.png",
+":/assets/flowerGardenSheet.png",
+":/assets/greenSheet.png",
+":/assets/minesweeperSheet.png",
+":/assets/otherSheet.png",
+":/assets/thumbBlue.png",
+":/assets/thumbFlowers.png",
+":/assets/thumbGreen.png",
+":/assets/thumbMines.png",
+"<a href=\"https://github.com/actuallyaridan/linux-minesweeper#part-of-the-wsl-windows-alike-software-for-linux-series\">%1</a>",
+"QDialog",
+"dialog size: %dx%d"
+]

@@ -1,0 +1,43 @@
+# Yerel paket: AeroShell Gadgets (Windows 7 masaüstü araçları), tamamen Türkçe
+pkgname=aeroshell-gadgets-tr
+pkgver=6.7.5.r50.gb2e9991
+pkgrel=1
+pkgdesc="Windows 7 masaüstü araçları: Saat, CPU Ölçer, Notlar, Akış Başlıkları, Slayt Gösterisi, Hava Durumu — Türkçe"
+arch=(x86_64)
+url="https://gitgud.io/catpswin56/win-gadgets"
+license=('AGPL-3.0-or-later')
+groups=(aerothemeplasma-yerel)
+depends=('libplasma' 'kunitconversion' 'kholidays' 'kio' 'ki18n' 'qt6-declarative')
+makedepends=('git' 'cmake' 'ninja' 'extra-cmake-modules' 'python' 'gettext')
+provides=('aeroshell-gadgets')
+conflicts=('aeroshell-gadgets')
+options=(!debug)
+source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/win-gadgets#branch=master")
+sha256sums=(SKIP)
+
+pkgver() {
+  cd kaynak
+  printf "%s.r%s.g%s" "$(grep -oP 'set\(PROJECT_VERSION \K[0-9.]+' CMakeLists.txt)" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+  python3 "$HOME/AeroKurulum/uygulamalar/araclar/cevir.py" uygula win-gadgets "$srcdir/kaynak"
+}
+
+build() {
+  cmake -S kaynak -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+  # Hava Durumu: KDE'nin Türkçe hava kataloglarını aracın çeviri alanına birleştir
+  local L=/usr/share/locale/tr/LC_MESSAGES k=()
+  for f in plasma_applet_org.kde.plasma.weather plasma_engine_weather; do
+    [[ -f $L/$f.mo ]] && { msgunfmt "$L/$f.mo" -o "$srcdir/$f.po"; k+=("$srcdir/$f.po"); }
+  done
+  (( ${#k[@]} )) && msgcat --use-first "${k[@]}" -o "$srcdir/hava.po" && msgfmt -o "$srcdir/hava.mo" "$srcdir/hava.po" || true
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+  [[ -f "$srcdir/hava.mo" ]] && install -Dm644 "$srcdir/hava.mo" \
+    "$pkgdir/usr/share/locale/tr/LC_MESSAGES/plasma_applet_io.gitgud.catpswin56.gadgets.weather.mo"
+  install -Dm644 kaynak/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

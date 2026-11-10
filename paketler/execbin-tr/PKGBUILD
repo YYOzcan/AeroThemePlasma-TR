@@ -1,0 +1,35 @@
+# Yerel paket: execbin (Windows 7 "Çalıştır" penceresi), tamamen Türkçe
+pkgname=execbin-tr
+pkgver=r15.g6127849
+pkgrel=1
+pkgdesc="Windows 7 Çalıştır penceresi (execbin) — Türkçe"
+arch=(x86_64)
+url="https://gitgud.io/catpswin56/execbin"
+license=('AGPL-3.0-or-later')
+groups=(aerothemeplasma-yerel)
+depends=('qt6-base' 'qt6-wayland' 'kwindowsystem' 'kconfig' 'layer-shell-qt' 'libplasma' 'wayland')
+makedepends=('git' 'cmake' 'ninja' 'extra-cmake-modules' 'plasma-wayland-protocols' 'python')
+provides=('execbin')
+conflicts=('execbin' 'execbin-git')
+options=(!debug)
+source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/execbin#branch=master")
+sha256sums=(SKIP)
+
+pkgver() {
+  cd kaynak
+  printf "r%s.g%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+  python3 "$HOME/AeroKurulum/uygulamalar/araclar/cevir.py" uygula execbin "$srcdir/kaynak"
+}
+
+build() {
+  cmake -S kaynak -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+  install -Dm644 kaynak/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

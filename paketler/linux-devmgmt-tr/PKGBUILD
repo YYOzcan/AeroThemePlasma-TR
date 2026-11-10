@@ -1,0 +1,31 @@
+# Yerel paket: linux-devmgmt (Windows 7 Aygıt Yöneticisi), tamamen Türkçe
+pkgname=linux-devmgmt-tr
+pkgver=2.1.1
+pkgrel=1
+pkgdesc="Windows 7 Aygıt Yöneticisi (linux-devmgmt) — Türkçe"
+arch=(x86_64)
+url="https://github.com/actuallyaridan/linux-devmgmt"
+license=('GPL-3.0-only')
+groups=(aerothemeplasma-yerel)
+depends=('qt6-base' 'kmod' 'pciutils' 'usbutils')
+optdepends=('dkms: sürücü yükleme/kaldırma' 'upower: pil düzeyleri' 'usbmuxd: iPhone pil düzeyi' 'bluez: Bluetooth aygıtları')
+makedepends=('git' 'cmake' 'ninja' 'python')
+provides=("linux-devmgmt=$pkgver")
+conflicts=('linux-devmgmt' 'linux-devmgmt-git')
+options=(!debug)
+source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/linux-devmgmt#tag=v2.1.1")
+sha256sums=(SKIP)
+
+prepare() {
+  python3 "$HOME/AeroKurulum/uygulamalar/araclar/cevir.py" uygula linux-devmgmt "$srcdir/kaynak"
+}
+
+build() {
+  cmake -S kaynak -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+  install -Dm644 kaynak/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

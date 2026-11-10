@@ -219,8 +219,9 @@ def aerothemeplasma(d):
         degistir(pl + W + 'battery/contents/ui/main.qml', 'KCMUtils.KCMLauncher.openSystemSettings("kcm_powerdevilprofilesconfig");',
                  'Qt.openUrlExternally("controlpanel:///Sistem ve Güvenlik/Güç Seçenekleri");')
 
-    # Görev Yöneticisi: ksysguard (KF6 portu) kuruluysa onu, değilse Plasma Sistem İzleyicisi'ni aç
-    gy = '"(command -v ksysguard >/dev/null && kstart ksysguard) || kstart plasma-systemmonitor"'
+    # Görev Yöneticisi: TuxManager (tux-manager-tr) kuruluysa onu, yoksa ksysguard (KF6 portu), o da yoksa Plasma Sistem İzleyicisi
+    gy = ('"(command -v tux-manager >/dev/null && kstart tux-manager) || '
+          '(command -v ksysguard >/dev/null && kstart ksysguard) || kstart plasma-systemmonitor"')
     degistir(ss + 'main.qml', 'menu_executable.exec("kstart ksysguard")', 'menu_executable.exec(' + gy + ')')
     degistir(pl + W + 'seventasks/contents/ui/main.qml', 'menu_executable.exec("kstart ksysguard")', 'menu_executable.exec(' + gy + ')')
     degistir(P + '/shells/' + W + 'desktop/contents/logout/Logout.qml', 'executable.exec("kstart ksysguard")', 'executable.exec(' + gy + ')')

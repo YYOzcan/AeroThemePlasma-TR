@@ -48,6 +48,7 @@ echo "$CEVIRI_CIKTI" | tail -15
 EKSIK=$(sed -n 's/^EKSIK=//p' <<< "$CEVIRI_CIKTI" | tail -1)
 ATLANAN=$(grep -c 'yama atlandı)' <<< "$CEVIRI_CIKTI")
 EKSIK_EX=$(sed -n 's/^EKSIK_EXPLORER=//p' <<< "$CEVIRI_CIKTI" | tail -1)
+EKSIK_UY=$(sed -n 's/^EKSIK_UYGULAMA=//p' <<< "$CEVIRI_CIKTI" | tail -1)
 
 # 4) Derle + kur (sıra önemli: libplasma önce, masaüstü sonra)
 SIRA=(aeroshell-libplasma uac-polkit-agent aeroshell-smod aeroshell-workspace aeroshell-kwin-components aeroshell-sddm-kcm)
@@ -70,10 +71,22 @@ for p in "${SIRA[@]}"; do
     fi
 done
 
+# 4b) Windows 7 uygulamaları (Aygıt Yöneticisi, Mayın Tarlası, Görev Yöneticisi, Gadget'lar, Çalıştır, winver).
+#     Qt/Plasma ile yeniden derlenir; biri başarısız olursa diğerleri yine denenir, ATP etkilenmez.
+UY_HATA=()
+for p in linux-devmgmt-tr linux-minesweeper-tr tux-manager-tr aeroshell-gadgets-tr execbin-tr linver-tr; do
+    [[ -d $K/pkg/$p ]] && pacman -Q "$p" >/dev/null 2>&1 || continue
+    echo "--- $p"
+    dosya=$(kul bash "$K/otomatik/kullanici.sh" derle "$p" | tail -1)
+    if [[ -f "$dosya" ]] && pacman -U --noconfirm "$dosya"; then :; else echo "$dosya"; UY_HATA+=("$p"); fi
+done
+
 # 5) Sonuç bildirimi
 mesaj="Tamamlandı. Yeni KWin efektlerinin yüklenmesi için oturumu kapatıp açın."
 (( ${EKSIK:-0} > 0 )) && mesaj+=" Not: $EKSIK yeni metin henüz çevrilmedi (İngilizce görünebilir); Claude'a 'ATP çevirilerini tamamla' deyin."
 (( ${EKSIK_EX:-0} > 0 )) && mesaj+=" Windows Gezgini’nde $EKSIK_EX yeni metin henüz çevrilmedi; Claude’a 'Gezgin çevirilerini tamamla' deyin."
+(( ${EKSIK_UY:-0} > 0 )) && mesaj+=" Windows 7 uygulamalarında $EKSIK_UY yeni metin henüz çevrilmedi; Claude’a 'uygulama çevirilerini tamamla' deyin."
+(( ${#UY_HATA[@]} > 0 )) && mesaj+=" Derlenemeyen uygulamalar (eski sürüm yerinde): ${UY_HATA[*]}; günlükler $K/pkg/<paket>.log."
 (( ${ATLANAN:-0} > 0 )) && mesaj+=" Bazı Türkçe yamalar üst kaynak değiştiği için atlandı."
 (( ${DAL_UYARI:-0} > 0 )) && mesaj+=" Uyarı: ATP henüz $DAL dalını yayımlamamış, mevcut dal ile derlendi."
 echo "$mesaj"

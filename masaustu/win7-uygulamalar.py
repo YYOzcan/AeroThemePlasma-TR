@@ -26,7 +26,11 @@ UYGULAMALAR = {
     'org.kde.spectacle': ('Ekran Alıntısı Aracı', 'spectacle', 'Ekranın bir bölümünün görüntüsünü yakalar; kaydeder ya da paylaşır.', {}),
     'org.kde.gwenview': ('Windows Fotoğraf Görüntüleyicisi', 'multimedia-photo-viewer', 'Resimleri görüntüleyin, döndürün ve yazdırın.', {}),
     'org.kde.haruna': ('Windows Media Player', 'multimedia-video-player', 'Dijital ortam dosyalarını oynatın ve düzenleyin.', {}),
-    'org.kde.plasma-systemmonitor': ('Windows Görev Yöneticisi', 'utilities-system-monitor', 'Bilgisayarınızda çalışan programları ve işlemleri görüntüler.', {}),
+    # Görev Yöneticisi artık TuxManager (tux-manager-tr); Plasma Sistem İzleyicisi menüden gizlenir
+    'io.github.benapetr.TuxManager': ('Windows Görev Yöneticisi', 'utilities-system-monitor', 'Bilgisayarınızda çalışan programları ve işlemleri görüntüler.', {}),
+    'org.kde.plasma-systemmonitor': ('Sistem İzleyicisi', 'utilities-system-monitor', None, {'NoDisplay': 'true'}),
+    'linux-devmgmt': ('Aygıt Yöneticisi', None, 'Donanım aygıtlarını görüntüleyin ve sürücü ayarlarını değiştirin.', {}),
+    'linux-minesweeper': ('Mayın Tarlası', None, 'Gizli mayınlardan kaçınarak mayın tarlasını temizleyin.', {}),
     'org.kde.kinfocenter': ('Sistem Bilgileri', 'hwinfo', 'Bilgisayarınızın donanımı ve yazılımı hakkındaki ayrıntıları görüntüler.', {}),
     'org.kde.partitionmanager': ('Disk Yönetimi', 'partitionmanager', 'Sabit diskleri ve bölümleri yönetin.', {}),
     'org.kde.kwalletmanager': ('Kimlik Bilgileri Yöneticisi', None, 'Kayıtlı kullanıcı adlarını ve parolaları yönetin.', {}),

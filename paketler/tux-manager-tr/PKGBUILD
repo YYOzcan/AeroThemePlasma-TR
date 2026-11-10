@@ -1,0 +1,36 @@
+# Yerel paket: TuxManager (Windows Görev Yöneticisi), tamamen Türkçe
+pkgname=tux-manager-tr
+pkgver=1.0.8
+pkgrel=1
+pkgdesc="Windows Görev Yöneticisi benzeri sistem izleyicisi (TuxManager) — Türkçe"
+arch=(x86_64)
+url="https://github.com/benapetr/TuxManager"
+license=('GPL-3.0-or-later')
+groups=(aerothemeplasma-yerel)
+depends=('qt6-base' 'qt6-svg' 'systemd-libs')
+makedepends=('git' 'python')
+provides=("tux-manager=$pkgver")
+conflicts=('tux-manager')
+options=(!debug)
+source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/TuxManager#tag=v1.0.8")
+sha256sums=(SKIP)
+
+prepare() {
+  python3 "$HOME/AeroKurulum/uygulamalar/araclar/cevir.py" uygula TuxManager "$srcdir/kaynak"
+}
+
+build() {
+  mkdir -p build && cd build
+  qmake6 ../kaynak/src CONFIG+=release
+  make
+}
+
+package() {
+  cd kaynak
+  install -Dm755 ../build/tux-manager "$pkgdir/usr/bin/tux-manager"
+  install -Dm644 packaging/data/io.github.benapetr.TuxManager.desktop "$pkgdir/usr/share/applications/io.github.benapetr.TuxManager.desktop"
+  install -Dm644 src/tux_manager_icon.svg "$pkgdir/usr/share/icons/hicolor/scalable/apps/tux_manager_icon.svg"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  # Windows'taki gibi "taskmgr" komutu (Çalıştır penceresi)
+  ln -s tux-manager "$pkgdir/usr/bin/taskmgr"
+}

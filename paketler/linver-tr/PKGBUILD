@@ -1,0 +1,38 @@
+# Yerel paket: LinVer (Windows Hakkında / winver), tamamen Türkçe
+pkgname=linver-tr
+pkgver=r15.g087f274
+pkgrel=1
+pkgdesc="Windows Hakkında penceresi (LinVer, winver) — Türkçe"
+arch=(x86_64)
+url="https://gitgud.io/wackyideas/linver"
+license=('AGPL-3.0-or-later')
+groups=(aerothemeplasma-yerel)
+depends=('qt6-base')
+makedepends=('git' 'python')
+provides=('linver')
+conflicts=('linver' 'linver-bin' 'linver-git')
+options=(!debug)
+source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/linver#branch=master")
+sha256sums=(SKIP)
+
+pkgver() {
+  cd kaynak
+  printf "r%s.g%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+  python3 "$HOME/AeroKurulum/uygulamalar/araclar/cevir.py" uygula linver "$srcdir/kaynak"
+}
+
+build() {
+  mkdir -p build && cd build
+  qmake6 ../kaynak/linver.pro CONFIG+=release
+  make
+}
+
+package() {
+  install -Dm755 build/linver "$pkgdir/usr/bin/linver"
+  install -Dm644 kaynak/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  # Windows'taki gibi "winver" komutu
+  ln -s linver "$pkgdir/usr/bin/winver"
+}

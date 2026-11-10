@@ -6,6 +6,7 @@ After=network-online.target
 [Service]
 Type=oneshot
 ExecStart=/usr/lib/aerothemeplasma-otomatik/guncelle.sh
-Nice=10
+Nice=19
+CPUWeight=idle
 IOSchedulingClass=idle
 TimeoutStartSec=4h

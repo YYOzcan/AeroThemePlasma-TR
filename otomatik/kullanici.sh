@@ -22,6 +22,16 @@ DEPOLAR=(
   "$K/aerothemeplasma|aerothemeplasma-desktop|plasma"
 )
 
+# Windows 7 uygulamaları: kaynak dizini (uygulamalar/ altında) | PKGBUILD paketi | etiket ya da dal adı
+UYGULAMALAR=(
+  "linux-devmgmt|linux-devmgmt-tr|etiket"
+  "linux-minesweeper|linux-minesweeper-tr|etiket"
+  "TuxManager|tux-manager-tr|etiket"
+  "win-gadgets|aeroshell-gadgets-tr|master"
+  "execbin|execbin-tr|master"
+  "linver|linver-tr|master"
+)
+
 kaynak() {
     local dal=$1 satir dizin paket tur hedef eski yeni
     for satir in "${DEPOLAR[@]}"; do
@@ -59,6 +69,30 @@ kaynak() {
         fi
         [[ "$eski" != "$(git rev-parse HEAD)" ]] && echo "DEGISTI linux-explorer-tr"
     fi
+    # Windows 7 uygulamaları: etiketli olanlar en son v* sürümü, diğerleri ana dal
+    local u dizin paket tur
+    for u in "${UYGULAMALAR[@]}"; do
+        IFS='|' read -r dizin paket tur <<< "$u"
+        dizin=$K/uygulamalar/$dizin
+        [[ -d $dizin/.git ]] || { echo "UYARI depo yok: $dizin"; continue; }
+        cd "$dizin" || continue
+        eski=$(git rev-parse HEAD)
+        if [[ $tur == etiket ]]; then
+            git fetch -q --tags origin 2>/dev/null || echo "UYARI $paket: git fetch başarısız; mevcut sürümle devam"
+            etiket=$(git tag -l 'v[0-9]*' | sort -V | tail -1)
+            if [[ -n $etiket ]]; then
+                git checkout -q "$etiket"
+                sed -i -E "s|(uygulamalar/[^#\"]+)#tag=[^\"]*\"|\1#tag=$etiket\"|; s/^pkgver=.*/pkgver=${etiket#v}/" "$PKG/$paket/PKGBUILD"
+            fi
+        else
+            if git fetch -q origin "+refs/heads/$tur:refs/remotes/origin/$tur" 2>/dev/null; then
+                git checkout -q -B "$tur" "origin/$tur" && git reset -q --hard "origin/$tur"
+            else
+                echo "UYARI $paket: git fetch başarısız; mevcut kaynakla devam"
+            fi
+        fi
+        [[ "$eski" != "$(git rev-parse HEAD)" ]] && echo "DEGISTI $paket"
+    done
 }
 
 ceviri() {
@@ -74,6 +108,16 @@ ceviri() {
     python3 araclar/olustur.py > "$K/otomatik/son-ceviri.txt"
     echo "EKSIK=$(sed -n 's/^Toplam eksik: //p' "$K/otomatik/son-ceviri.txt")"
     [[ -d $K/explorer/kaynak ]] && echo "EKSIK_EXPLORER=$(python3 "$K/explorer/araclar/eksik.py" "$K/explorer/kaynak" 2>/dev/null || echo 0)"
+    # Windows 7 uygulamaları: sözlükte olmayan yeni metin sayısı
+    local u dizin toplam=0 n
+    for u in "${UYGULAMALAR[@]}"; do
+        dizin=${u%%|*}
+        [[ -d $K/uygulamalar/$dizin ]] || continue
+        n=$(python3 "$K/uygulamalar/araclar/cevir.py" eksik "$dizin" "$K/uygulamalar/$dizin" 2>/dev/null || echo 0)
+        [[ $n =~ ^[0-9]+$ ]] && (( n > 0 )) && echo "UYARI $dizin: $n yeni çevrilmemiş metin (araclar/sozluk/$dizin.py)"
+        [[ $n =~ ^[0-9]+$ ]] && toplam=$((toplam + n))
+    done
+    echo "EKSIK_UYGULAMA=$toplam"
 }
 
 derle() {

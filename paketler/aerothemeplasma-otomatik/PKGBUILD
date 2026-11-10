@@ -1,7 +1,7 @@
 # Yerel paket: KDE/Qt güncellemelerinde AeroThemePlasma'yı otomatik yeniden derleyen pacman hook'u
 pkgname=aerothemeplasma-otomatik
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="KDE Plasma/KWin/Qt güncellendiğinde AeroThemePlasma'yı Türkçe ve ayarları koruyarak yeniden derler"
 arch=(any)
 license=("GPL-2.0-or-later")

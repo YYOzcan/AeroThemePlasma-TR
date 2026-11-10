@@ -1,0 +1,30 @@
+# Yerel paket: linux-minesweeper (Windows 7 Mayın Tarlası), tamamen Türkçe
+pkgname=linux-minesweeper-tr
+pkgver=2.0.1
+pkgrel=1
+pkgdesc="Windows 7 Mayın Tarlası (linux-minesweeper) — Türkçe"
+arch=(x86_64)
+url="https://github.com/actuallyaridan/linux-minesweeper"
+license=('GPL-3.0-only')
+groups=(aerothemeplasma-yerel)
+depends=('qt6-base' 'qt6-multimedia')
+makedepends=('git' 'cmake' 'ninja' 'python')
+provides=("linux-minesweeper=$pkgver")
+conflicts=('linux-minesweeper')
+options=(!debug)
+source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/linux-minesweeper#tag=v2.0.1")
+sha256sums=(SKIP)
+
+prepare() {
+  python3 "$HOME/AeroKurulum/uygulamalar/araclar/cevir.py" uygula linux-minesweeper "$srcdir/kaynak"
+}
+
+build() {
+  cmake -S kaynak -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+  install -Dm644 kaynak/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
