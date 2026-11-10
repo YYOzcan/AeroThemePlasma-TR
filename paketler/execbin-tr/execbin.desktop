@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Run
+Name[tr]=Çalıştır
+Comment=Open a program, folder, document or Internet resource
+Comment[tr]=Bir program, klasör, belge veya Internet kaynağı açın
+Exec=execbin
+Icon=system-run
+NoDisplay=true
+StartupNotify=false
+X-KDE-Shortcuts=Meta+R

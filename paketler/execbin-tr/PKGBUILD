@@ -12,8 +12,8 @@ makedepends=('git' 'cmake' 'ninja' 'extra-cmake-modules' 'plasma-wayland-protoco
 provides=('execbin')
 conflicts=('execbin' 'execbin-git')
 options=(!debug)
-source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/execbin#branch=master")
-sha256sums=(SKIP)
+source=("kaynak::git+file://$HOME/AeroKurulum/uygulamalar/execbin#branch=master" execbin.desktop)
+sha256sums=(SKIP SKIP)
 
 pkgver() {
   cd kaynak
@@ -32,4 +32,6 @@ build() {
 package() {
   DESTDIR="$pkgdir" cmake --install build
   install -Dm644 kaynak/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  # Windows tuşu + R: Çalıştır (menüde görünmez, yalnızca kısayol)
+  install -Dm644 execbin.desktop "$pkgdir/usr/share/applications/execbin.desktop"
 }

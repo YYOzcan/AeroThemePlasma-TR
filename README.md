@@ -69,7 +69,7 @@ Terminoloji olarak Windows 7'nin Türkçe sürümü esas alınmıştır.
    - `plymouth-theme-vista-tr`: Windows 7 açılış ekranı;
    - `geckium-autoconfig`: Geckium için Firefox autoconfig;
    - `aerothemeplasma-otomatik`: otomatik güncelleme.
-   - Windows 7 uygulamaları: `linux-devmgmt-tr`, `linux-minesweeper-tr`, `tux-manager-tr`, `aeroshell-gadgets-tr`, `execbin-tr`, `linver-tr`. Kaynaklar `~/AeroKurulum/uygulamalar/<depo>` altına klonlanır (`linux-devmgmt`, `linux-minesweeper`, `TuxManager`, `win-gadgets`, `execbin`, `linver`). Kurulumdan sonra oturum açıkken `masaustu/uygulamalar-ayarla.sh` çalıştırın: Başlat menüsündeki Çalıştır'ı execbin'e bağlar, KWin kuralını ekler, uygulama adlarını ayarlar. `winver` ve `taskmgr` komutları da çalışır.
+   - Windows 7 uygulamaları: `linux-devmgmt-tr`, `linux-minesweeper-tr`, `tux-manager-tr`, `aeroshell-gadgets-tr`, `execbin-tr`, `linver-tr`. Kaynaklar `~/AeroKurulum/uygulamalar/<depo>` altına klonlanır (`linux-devmgmt`, `linux-minesweeper`, `TuxManager`, `win-gadgets`, `execbin`, `linver`). Kurulumdan sonra oturum açıkken `masaustu/uygulamalar-ayarla.sh` çalıştırın: Başlat menüsündeki Çalıştır'ı execbin'e bağlar, KWin kuralını ekler, uygulama adlarını ayarlar. Windows tuşu + R Çalıştır penceresini açar; `winver` ve `taskmgr` komutları da çalışır.
 5. SDDM'i etkinleştirin ve giriş ekranında **AeroThemePlasma** oturumunu seçin.
 
 Paketlerin hepsi `aerothemeplasma-yerel` grubundadır; böylece `pacman` ile tek seferde kaldırılabilir.
